@@ -8,3 +8,14 @@
     border-bottom: 1px solid #e9ecef;
     height: 60px;
 }
+Link{
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: inherit;
+}
+Link:hover{
+    color: #c58e8e;
+}
+Link:visited{
+    color: #000000;
+}

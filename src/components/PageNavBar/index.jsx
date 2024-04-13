@@ -10,7 +10,7 @@ function PageNavBar() {
             <AppBar>
                 <Toolbar>
                     <IconButton 
-                    size='large' 
+                    size='medium' 
                     edge="start" 
                     color="inherit" 
                     aria-label="menu" 
@@ -20,7 +20,7 @@ function PageNavBar() {
                     </IconButton>
 
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                    <Link to="/">Home</Link>
+                    <Link to="/" >Home</Link>
                     </Typography>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     <Link to="/Experience">Experience</Link>
@@ -35,7 +35,7 @@ function PageNavBar() {
                     <Link to="/Languages">Languages</Link>
                     </Typography>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                    <Link to="/Pageversion">Page Version</Link>
+                    <Link to="/PersonalData">Contacto</Link>
                     </Typography>
 
                 </Toolbar>
