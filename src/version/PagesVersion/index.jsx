@@ -1,10 +1,11 @@
-import PageLandingNavBar from '../LandingVersion/components/PageLandingNavBar';
+import PageNavBar from '../../components/PageNavBar';
+import './PagesVersion.css';
 
 function PageVersion(){
 
     return (
-        <div>
-            <PageLandingNavBar />
+        <div id="container">
+            <PageNavBar />
         </div>
     );
 }
