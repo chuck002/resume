@@ -1,21 +1,19 @@
-import PageNavBar from '../../components/PageNavBar';
-import './PagesVersion.css';
-import Avatar from '@mui/material/Avatar';
-import img from '../../../src/assets/perfil_blog.jpg';
-import PageFooter from '../../components/PageFooter';
+import PageNavBar from '../../../../components/PageNavBar';
+import PageFooter from '../../../../components/PageFooter';
+import './Skills.css'
 
-function PageVersion() {
-
-    return (
-        <>
-            <PageNavBar />
+function Education() {
+  return (
+    <div>
+      <>
+        <PageNavBar />
             <div className="Container">
                 <div className='Container-Title'>
-                    <h1>Portfolio Personal</h1>
+                    <h1>Experiencia</h1>
                 </div>
                 <div className='Container-Card'>
                     <div className='Container-Card-Title'>
-                        <Avatar alt="Javy Luna" src={img} sx={{ width: 300, height: 300 }} />
+                        
                         <h3>Carta de Presentacion</h3>
                     </div>
                     <div className='Container-Card-Content'>
@@ -31,8 +29,9 @@ function PageVersion() {
 
             </div>
             <PageFooter />
-        </>
-    );
+    </>
+    </div>
+  );
 }
 
-export default PageVersion;
+export default Education;

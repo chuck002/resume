@@ -5,6 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-router-dom';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import PageFooter from '../../../../components/PageFooter';
 
 import img from '../../../../assets/perfil_blog.jpg';
 
@@ -39,6 +40,8 @@ function PersonalData() {
         </div>
 
       </div>
+
+      <PageFooter />
 
     </>
   );
