@@ -1,21 +1,44 @@
-#NavBarPage{
+body{
+    margin-top: 88px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.NavBar-Container{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    vertical-align: top;
-    padding: 0 20px;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #e9ecef;
-    height: 60px;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    height: 80px;
+    background-color: rgba(251, 222, 1, 0.901);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 4px;
 }
-Link{
-    font-weight: 500;
-    color: #FFFFFF;
-    text-decoration: inherit;
+.NavBar-Container-Logo{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
 }
-Link:hover{
-    color: #c58e8e;
+.NavBar-Container-Menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 24px;
 }
-Link:visited{
-    color: #000000;
-}
+
+.NavBar-Container-Menu li{
+    display: inline-block;
+    padding: 0px 20px;
+ }
+
+ .NavBar-Container-Menu li:hover{
+    transform: scale(1.1);
+ }
+
+ .NavBar-Container-Menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+ }
