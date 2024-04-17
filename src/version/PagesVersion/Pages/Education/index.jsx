@@ -4,33 +4,104 @@ import './Education.css'
 
 function Education() {
   return (
-    <div>
-      <>
-        <PageNavBar />
-            <div className="Container">
-                <div className='Container-Title'>
-                    <h1>Experiencia</h1>
+    <>
+      <PageNavBar />
+      <div className="Container">
+        <div className='Container-Card'>
+          <div className='Container-Card-Title'>
+            <h3>Educacion Formal y Cursos</h3>
+          </div>
+          <div className='Container-Card-Content'>
+            <ul>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>2019 - Actualidad</span>
+                  <span className='Experience-empresa'>Instituto Nacional Superior del Profesorado Tecnico (UTN - Argentina) Tecnico Superior en Informatica Aplicada</span>
                 </div>
-                <div className='Container-Card'>
-                    <div className='Container-Card-Title'>
-                        
-                        <h3>Carta de Presentacion</h3>
-                    </div>
-                    <div className='Container-Card-Content'>
-                        <p>Bienvenido y antes que nada, queria agradecerle por llegar hasta aqui a visualizar mi portfolio.</p>
-                        <p>Soy un estudiante de la Tecnicatura de Informatica Aplicada. En el Instituto Nacional Superior del Profesorado Tecnico de la Universidad Tecnologica Nacional en Argentina.</p>
-                        <p>Este porfolio fue creado para contar un poco acerca de mi y de mi camino profesional dentro de este apasionante mundo de la industria IT.</p>
-                        <p>Mi nombre es Javier Oscar Luna y vivo en Tigre (Provincia de Buenos Aires en Argentina), tengo 37 años de edad y me desempeño como Software Developer desde hace mas de 2 años.</p>
-                        <p>En este portfolio podras encontrar informacion acerca de mi experiencia laboral, educacion, habilidades y proyectos que he realizado.</p>
-                        <p>Si estas interesado en contactarme, no dudes en hacerlo a traves de mis redes sociales o enviandome un email en la seccion de contacto...</p>
-                        <p>Gracias por tu tiempo y espero que disfrutes tu recorrido por mi portfolio personal.</p>
-                    </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Actualmente cursando las ultimas materias de la carrera con finalizacion aproximada para el año 2025.</p>
                 </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>01/2021 - 11/2021</span>
+                  <span className='Experience-empresa'>CIAO - ESPACIO DE IDIOMAS (Argentina)</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Nivel de Ingles B1.2. Curso Certificado en Noviembre de 2021.</p>
+                </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>26/01/2023</span>
+                  <span className='Experience-empresa'>Curso Profesional de Git y Github (Platzi)</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/1557-git-github/diploma/detalle/</p>
+                </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>13/02/2023</span>
+                  <span className='Experience-empresa'>Introduccion a la Terminal y Linea de Comandos (Plat zi)</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/2292-terminal/diploma/detalle/</p>
+                </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>13/02/2023</span>
+                  <span className='Experience-empresa'>Introduccion a la Terminal y Linea de Comandos (Platzi)</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/2292-terminal/diploma/detalle/</p>
+                </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>12/07/2023</span>
+                  <span className='Experience-empresa'>Curso Práctico de Frontend Developer (Platzi)</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/2477-frontend-developer-practico/diploma/detalle/</p>
+                </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>14/02/2023</span>
+                  <span className='Experience-empresa'>Curso de Prework: Configuración de Entorno de Desarrollo en Linux (Platzi)</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/2383-prework-linux/diploma/detalle/</p>
+                </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>12/01/2023</span>
+                  <span className='Experience-empresa'>Curso de FrontEnd Developer (Platzi)</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/2467-frontend-developer/diploma/detalle/</p>
+                </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>13/01/2023</span>
+                  <span className='Experience-empresa'>Curso Basico de Javascript (Platzi)</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/1814-basico-javascript/diploma/detalle/</p>
+                </div>
+              </li>
 
-            </div>
-            <PageFooter />
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <PageFooter />
     </>
-    </div>
   );
 }
 

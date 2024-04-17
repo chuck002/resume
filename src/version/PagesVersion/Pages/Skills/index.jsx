@@ -4,33 +4,71 @@ import './Skills.css'
 
 function Education() {
   return (
-    <div>
-      <>
-        <PageNavBar />
-            <div className="Container">
-                <div className='Container-Title'>
-                    <h1>Experiencia</h1>
+    <>
+      <PageNavBar />
+      <div className="Container">
+        <div className='Container-Card'>
+          <div className='Container-Card-Title'>
+            <h3>Conocimientos</h3>
+          </div>
+          <div className='Container-Card-Content'>
+            <ul>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>02/2022- Actualidad</span>
+                  <span className='Experience-empresa'>Lenguajes de programación.</span>
                 </div>
-                <div className='Container-Card'>
-                    <div className='Container-Card-Title'>
-                        
-                        <h3>Carta de Presentacion</h3>
-                    </div>
-                    <div className='Container-Card-Content'>
-                        <p>Bienvenido y antes que nada, queria agradecerle por llegar hasta aqui a visualizar mi portfolio.</p>
-                        <p>Soy un estudiante de la Tecnicatura de Informatica Aplicada. En el Instituto Nacional Superior del Profesorado Tecnico de la Universidad Tecnologica Nacional en Argentina.</p>
-                        <p>Este porfolio fue creado para contar un poco acerca de mi y de mi camino profesional dentro de este apasionante mundo de la industria IT.</p>
-                        <p>Mi nombre es Javier Oscar Luna y vivo en Tigre (Provincia de Buenos Aires en Argentina), tengo 37 años de edad y me desempeño como Software Developer desde hace mas de 2 años.</p>
-                        <p>En este portfolio podras encontrar informacion acerca de mi experiencia laboral, educacion, habilidades y proyectos que he realizado.</p>
-                        <p>Si estas interesado en contactarme, no dudes en hacerlo a traves de mis redes sociales o enviandome un email en la seccion de contacto...</p>
-                        <p>Gracias por tu tiempo y espero que disfrutes tu recorrido por mi portfolio personal.</p>
-                    </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Java, CSS (Framework Bootstrap), HTML5, c,
+                    Javascript con Node y ReactJS y Python con Flask,
+                    etc.</p>
                 </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>01/2022- Actualidad</span>
+                  <span className='Experience-empresa'>Pulpou SA (Argentina)</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Trabajo Actualmente de manera remota en la
+                    plataforma de scrapping para Brand Protection,
+                    generando nuevas features y resolviendo issues en la
+                    nueva libreria con JS en Node.</p>
+                </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>07/2021 - 01/2022</span>
+                  <span className='Experience-empresa'>Pulpou SA (Argentina)</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Trabaje en el desarrollo de nuevas features y resolucion
+                    de issues en su plataforma REST de Brand Protection,
+                    que se encontraba compuesta de un frontEnd en
+                    ReactJS y con un Backend diseñada en Python con Flask
+                    y SQLAlchemy.</p>
+                </div>
+              </li>
+              <li>
+                <div className='Lista-Experience-Title'>
+                  <span className='Experience-fecha'>2010 - 2019</span>
+                  <span className='Experience-empresa'>Ford Argentina SA</span>
+                </div>
+                <div className='Lista-Experience-Content'>
+                  <p>Me desempeñe durante 10 años como
+                    operario en planta, trabajando en grupo
+                    primero en la linea de producción.
+                    Y luego desarrollando tareas varias, como
+                    Data Entry de piezas fallidas y materiales.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-            </div>
-            <PageFooter />
+        </div>
+      </div>
+      <PageFooter />
     </>
-    </div>
   );
 }
 
