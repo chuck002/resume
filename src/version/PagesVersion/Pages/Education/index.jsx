@@ -1,5 +1,6 @@
 import PageNavBar from '../../../../components/PageNavBar';
 import PageFooter from '../../../../components/PageFooter';
+import { Link } from 'react-router-dom';
 import './Education.css'
 
 function Education() {
@@ -37,16 +38,7 @@ function Education() {
                   <span className='Experience-empresa'>Curso Profesional de Git y Github (Platzi)</span>
                 </div>
                 <div className='Lista-Experience-Content'>
-                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/1557-git-github/diploma/detalle/</p>
-                </div>
-              </li>
-              <li>
-                <div className='Lista-Experience-Title'>
-                  <span className='Experience-fecha'>13/02/2023</span>
-                  <span className='Experience-empresa'>Introduccion a la Terminal y Linea de Comandos (Plat zi)</span>
-                </div>
-                <div className='Lista-Experience-Content'>
-                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/2292-terminal/diploma/detalle/</p>
+                  <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/1557-git-github/diploma/detalle/" target="_blank" rel="noopener noreferrer">Aqui</a></p>
                 </div>
               </li>
               <li>
@@ -55,7 +47,7 @@ function Education() {
                   <span className='Experience-empresa'>Introduccion a la Terminal y Linea de Comandos (Platzi)</span>
                 </div>
                 <div className='Lista-Experience-Content'>
-                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/2292-terminal/diploma/detalle/</p>
+                  <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/2292-terminal/diploma/detalle/" target="_blank" rel="noopener noreferrer">Aqui</a></p>
                 </div>
               </li>
               <li>
@@ -64,7 +56,7 @@ function Education() {
                   <span className='Experience-empresa'>Curso Práctico de Frontend Developer (Platzi)</span>
                 </div>
                 <div className='Lista-Experience-Content'>
-                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/2477-frontend-developer-practico/diploma/detalle/</p>
+                  <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/2477-frontend-developer-practico/diploma/detalle/" target="_blank" rel="noopener noreferrer">Aqui</a></p>
                 </div>
               </li>
               <li>
@@ -73,7 +65,7 @@ function Education() {
                   <span className='Experience-empresa'>Curso de Prework: Configuración de Entorno de Desarrollo en Linux (Platzi)</span>
                 </div>
                 <div className='Lista-Experience-Content'>
-                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/2383-prework-linux/diploma/detalle/</p>
+                  <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/2383-prework-linux/diploma/detalle/" target="_blank" rel="noopener noreferrer">Aqui</a></p>
                 </div>
               </li>
               <li>
@@ -82,7 +74,7 @@ function Education() {
                   <span className='Experience-empresa'>Curso de FrontEnd Developer (Platzi)</span>
                 </div>
                 <div className='Lista-Experience-Content'>
-                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/2467-frontend-developer/diploma/detalle/</p>
+                  <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/2467-frontend-developer/diploma/detalle/" target="_blank" rel="noopener noreferrer">Aqui</a></p>
                 </div>
               </li>
               <li>
@@ -91,7 +83,7 @@ function Education() {
                   <span className='Experience-empresa'>Curso Basico de Javascript (Platzi)</span>
                 </div>
                 <div className='Lista-Experience-Content'>
-                  <p>Certificacion: https://platzi.com/p/ljavy86/curso/1814-basico-javascript/diploma/detalle/</p>
+                  <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/1814-basico-javascript/diploma/detalle/" target="_blank" rel="noopener noreferrer">Aqui</a></p>
                 </div>
               </li>
 
