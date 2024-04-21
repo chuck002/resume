@@ -12,57 +12,24 @@ function Education() {
             <h3>Conocimientos</h3>
           </div>
           <div className='Container-Card-Content'>
-            <ul>
-              <li>
-                <div className='Lista-Experience-Title'>
-                  <span className='Experience-fecha'>02/2022- Actualidad</span>
-                  <span className='Experience-empresa'>Lenguajes de programación.</span>
-                </div>
-                <div className='Lista-Experience-Content'>
-                  <p>Java, CSS (Framework Bootstrap), HTML5, c,
-                    Javascript con Node y ReactJS y Python con Flask,
-                    etc.</p>
-                </div>
-              </li>
-              <li>
-                <div className='Lista-Experience-Title'>
-                  <span className='Experience-fecha'>01/2022- Actualidad</span>
-                  <span className='Experience-empresa'>Pulpou SA (Argentina)</span>
-                </div>
-                <div className='Lista-Experience-Content'>
-                  <p>Trabajo Actualmente de manera remota en la
-                    plataforma de scrapping para Brand Protection,
-                    generando nuevas features y resolviendo issues en la
-                    nueva libreria con JS en Node.</p>
-                </div>
-              </li>
-              <li>
-                <div className='Lista-Experience-Title'>
-                  <span className='Experience-fecha'>07/2021 - 01/2022</span>
-                  <span className='Experience-empresa'>Pulpou SA (Argentina)</span>
-                </div>
-                <div className='Lista-Experience-Content'>
-                  <p>Trabaje en el desarrollo de nuevas features y resolucion
-                    de issues en su plataforma REST de Brand Protection,
-                    que se encontraba compuesta de un frontEnd en
-                    ReactJS y con un Backend diseñada en Python con Flask
-                    y SQLAlchemy.</p>
-                </div>
-              </li>
-              <li>
-                <div className='Lista-Experience-Title'>
-                  <span className='Experience-fecha'>2010 - 2019</span>
-                  <span className='Experience-empresa'>Ford Argentina SA</span>
-                </div>
-                <div className='Lista-Experience-Content'>
-                  <p>Me desempeñe durante 10 años como
-                    operario en planta, trabajando en grupo
-                    primero en la linea de producción.
-                    Y luego desarrollando tareas varias, como
-                    Data Entry de piezas fallidas y materiales.</p>
-                </div>
-              </li>
-            </ul>
+            <p>Lenguajes de programación.
+Java, CSS (Framework Bootstrap), HTML5, c,
+Javascript con Node y ReactJS y Python con Flask,
+etc.
+Herramientas de Desarrollo.
+Manejo sistemas Linux y Windows, CLI bash, SQL,
+AWS S3, ORM (Con Hibernate en SpringBoot,
+SQLAlchemy en Flask y Sequelize en NodeJS).
+Instalacion y Administracion Basica de Servidores
+Apache
+(phpMyAdmin) y MySQL, para pruebas en
+localhost.
+Conocimiento de sistemas de control de versiones
+con Git y manejo de repositorios con Github.
+Manejo basico de contenedores, con Docker.
+Utilizo herramientas de metodologias Agiles tales
+como monday, Jira y Trello.
+Español Nativo. Ingles nivel Intermedio.</p>
           </div>
 
         </div>

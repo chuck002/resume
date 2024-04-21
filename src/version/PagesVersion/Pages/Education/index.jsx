@@ -1,9 +1,13 @@
 import PageNavBar from '../../../../components/PageNavBar';
 import PageFooter from '../../../../components/PageFooter';
-import { Link } from 'react-router-dom';
+import {useHover} from '../../../../Hooks/useHover.jsx';
 import './Education.css'
 
 function Education() {
+
+  const { hover, onMouseEnter, onMouseLeave } = useHover();
+
+
   return (
     <>
       <PageNavBar />
@@ -38,7 +42,10 @@ function Education() {
                   <span className='Experience-empresa'>Curso Profesional de Git y Github (Platzi)</span>
                 </div>
                 <div className='Lista-Experience-Content'>
-                  <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/1557-git-github/diploma/detalle/" target="_blank" rel="noopener noreferrer">Aqui</a></p>
+                  <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/1557-git-github/diploma/detalle/" 
+                    onMouseEnter={onMouseEnter}
+                    onMouseLeave={onMouseLeave}
+                    target="_blank" rel="noopener noreferrer">Aqui</a><span hidden={hover}>DATOOOOOO!!!! 11111</span></p>
                 </div>
               </li>
               <li>
@@ -47,7 +54,7 @@ function Education() {
                   <span className='Experience-empresa'>Introduccion a la Terminal y Linea de Comandos (Platzi)</span>
                 </div>
                 <div className='Lista-Experience-Content'>
-                  <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/2292-terminal/diploma/detalle/" target="_blank" rel="noopener noreferrer">Aqui</a></p>
+                  <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/2292-terminal/diploma/detalle/" target="_blank" rel="noopener noreferrer">Aqui</a><span hidden={hover}>DATOOOOOO!!!! 222222</span></p>
                 </div>
               </li>
               <li>
