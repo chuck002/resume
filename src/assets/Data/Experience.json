@@ -1,0 +1,76 @@
+{
+    "languaje": {
+        "spanish": {
+            "Experience": [
+                {
+                    "id": 1,
+                    "Company": "Ford Argentina SA",
+                    "Role": "Operario.",
+                    "Duration": "2010 - 2019",
+                    "Description": "Me desempeñe durante 10 años como operario en planta, trabajando en grupo primero en la linea de producción. Y luego desarrollando tareas varias, como Data Entry de piezas fallidas y materiales.",
+                    "tecnologies": "Ninguna"
+                },
+                {
+                    "id": 2,
+                    "Company": "Pulpou SA (Argentina)",
+                    "Role": "Programador FullStack",
+                    "Duration": "07/2021 - 01/2022",
+                    "Description": "Trabaje en el desarrollo de nuevas features y resolucion de issues en su plataforma REST de Brand Protection, que se encontraba compuesta de un frontEnd en ReactJS y con un Backend diseñada en Python con Flask y SQLAlchemy.",
+                    "tecnologies": "Python, Flask, SQLAlchemy, ReactJS, NodeJS, SQL, Docker, Git, GitHub"
+                },
+                {
+                    "id": 3,
+                    "Company": "Pulpou SA (Argentina)",
+                    "Role": "Programador Backend y Procesamiento de Datos",
+                    "Duration": "01/2022 - Actualidad",
+                    "Description": "Trabajo Actualmente de manera remota en la plataforma de scrapping para Brand Protection, generando nuevas features y resolviendo issues en la nueva libreria con JS en Node.",
+                    "tecnologies": "NodeJS, SQL, Puppeteer, Cheerio, Axios, Express, Sequelize, JavaScript, AJAX, Docker, Git, GitHub"
+                },
+                {
+                    "id": 4,
+                    "Company": "Solucredito SA (Republica Dominicana)",
+                    "Role": "Programador FullStack",
+                    "Duration": "02/2022 - Actualidad",
+                    "Description": "Actualmente trabajo como desarrollador FullStack, en su plataforma de venta de servicios financieros en Java 8 bajo el framework SpringBoot con Maven, una Base Relacional SQL y con un frontEnd desarrollado de manera mixta entre Thymeleaf y JS con AJAX.",
+                    "tecnologies": "Java 8, SpringBoot, Maven, Thymeleaf, AJAX, Javascript, Jquery, SQL, Hibernate, Docker, Git, GitHub"
+                }
+            ]
+        },
+        "english": {
+            "Experience": [
+                {
+                    "id": 1,
+                    "Company": "Ford Argentina SA",
+                    "Role": "Worker",
+                    "Duration": "2010 - 2019",
+                    "Description": "Me desempeñe durante 10 años como operario en planta, trabajando en grupo primero en la linea de producción. Y luego desarrollando tareas varias, como Data Entry de piezas fallidas y materiales.",
+                    "tecnologies": "Python, Flask, SQLAlchemy, ReactJS, NodeJS, Java 8, SpringBoot, Maven, Thymeleaf, AJAX, SQL"
+                },
+                {
+                    "id": 2,
+                    "Company": "Pulpou SA (Argentina)",
+                    "Role": "FullStack Developer",
+                    "Duration": "07/2021 - 01/2022",
+                    "Description": "Trabaje en el desarrollo de nuevas features y resolucion de issues en su plataforma REST de Brand Protection, que se encontraba compuesta de un frontEnd en ReactJS y con un Backend diseñada en Python con Flask y SQLAlchemy.",
+                    "tecnologies": "Python, Flask, SQLAlchemy, ReactJS, NodeJS, SQL, Docker, Git, GitHub"
+                },
+                {
+                    "id": 3,
+                    "Company": "Pulpou SA (Argentina)",
+                    "Role": "Programador Backend y Procesamiento de Datos",
+                    "Duration": "01/2022 - Actualidad",
+                    "Description": "Trabajo Actualmente de manera remota en la plataforma de scrapping para Brand Protection, generando nuevas features y resolviendo issues en la nueva libreria con JS en Node.",
+                    "tecnologies": "NodeJS, SQL, Puppeteer, Cheerio, Axios, Express, Sequelize, JavaScript, AJAX, Docker, Git, GitHub"
+                },
+                {
+                    "id": 4,
+                    "Company": "Solucredito SA (Republica Dominicana)",
+                    "Role": "FullStack Developer",
+                    "Duration": "02/2022 - Actualidad",
+                    "Description": "Actualmente trabajo como desarrollador FullStack, en su plataforma de venta de servicios financieros en Java 8 bajo el framework SpringBoot con Maven, una Base Relacional SQL y con un frontEnd desarrollado de manera mixta entre Thymeleaf y JS con AJAX.",
+                    "tecnologies": "Java 8, SpringBoot, Maven, Thymeleaf, AJAX, Javascript, Jquery, SQL, Hibernate, Docker, Git, GitHub"
+                }
+            ]
+        }
+    }
+}
