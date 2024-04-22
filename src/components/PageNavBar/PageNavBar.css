@@ -11,7 +11,7 @@ body{
     top: 0;
     position: fixed;
     height: 80px;
-    background-color: rgba(251, 222, 1, 0.901);
+    background-color: rgba(251, 222, 1);
     color: rgb(0, 0, 0);
     width: 100%;
     border-radius: 4px;

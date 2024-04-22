@@ -16,10 +16,10 @@ function PageFooter() {
                 <span>Javier Oscar Luna 2024</span>
             </div>
             <div>
-                <span>GitHub <GitHubIcon /></span>
+                <span><GitHubIcon /> GitHub</span>
             </div>
             <div>
-                <span>LinkedIn <LinkedInIcon /></span>
+                <span><LinkedInIcon /> LinkedIn</span>
             </div>
         </BottomNavigation>
     );
