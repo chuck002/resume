@@ -10,7 +10,6 @@ import Projects from './version/PagesVersion/Pages/Projects/index.jsx'
 function App() {
 
   return (
-    <>
         <Routes>
           <Route path="/" element={<PageVersion />} />
           <Route path="/PersonalData" element={<PersonalData />} />
@@ -19,7 +18,6 @@ function App() {
           <Route path="/Skills" element={<Skills />} />
           <Route path="*" element={<Projects />} />
         </Routes>
-    </>
   )
 }
 

@@ -9,7 +9,6 @@ function PageVersion() {
     return (
         <>
             <PageNavBar />
-            <div className="Container">
                 <div className='Container-Title'>
                     <h1>Portfolio Personal</h1>
                 </div>
@@ -28,8 +27,6 @@ function PageVersion() {
                         <p>Gracias por tu tiempo y espero que disfrutes tu recorrido por mi portfolio personal.</p>
                     </div>
                 </div>
-
-            </div>
             <PageFooter />
         </>
     );

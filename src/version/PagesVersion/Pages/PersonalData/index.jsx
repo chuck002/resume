@@ -13,8 +13,6 @@ function PersonalData() {
   return (
     <>
       <PageNavBar />
-
-      <div className="Container">
         <div className='Container-Title'>
           <h1>Contact Info</h1>
         </div>
@@ -38,8 +36,6 @@ function PersonalData() {
             <h2>Address</h2>
           </div>
         </div>
-
-      </div>
 
       <PageFooter />
 

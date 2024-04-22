@@ -2,7 +2,7 @@ body{
     margin-top: 88px;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255,225,180);
 }
 .NavBar-Container{
     display: flex;
@@ -11,7 +11,7 @@ body{
     top: 0;
     position: fixed;
     height: 80px;
-    background-color: rgba(251, 222, 1);
+    background-color: rgba(100, 170, 255);
     color: rgb(0, 0, 0);
     width: 100%;
     border-radius: 4px;
@@ -45,12 +45,12 @@ body{
  .NavBar-Logo{
     width: 50px;
     height: 50px;
-    margin: 12px;
-    padding: 12px;
+    margin: 8px;
+    padding: 8px;
     text-align: center;
     border-radius: 50%;
     border-color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: rgb(25, 25, 164);
     color: white;
 

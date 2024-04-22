@@ -8,14 +8,14 @@ function Experience() {
   return (
     <>
       <PageNavBar />
-      <div className="Container">
         <div className='Container-Card'>
           <div className='Container-Card-Title'>
             <h3>Experiencia Laboral</h3>
           </div>
           <div className='Container-Card-Content'>
             <ul>
-                {ExperienceJson.languaje.spanish.Experience.map((item, index) => {
+                {
+                  ExperienceJson.languaje.spanish.Experience.reverse().map((item, index) => {
                   return (
                     <li key={index}>
                       <div>
@@ -26,6 +26,14 @@ function Experience() {
                         <div className='Lista-Experience-Content'>
                           <p>{item.Description}</p>
                         </div>
+                        <div className='Experience-Tags'>
+                          <p>{
+                            item.tecnologies.map((item, index) => {
+                            return (
+                              <span key={index} className='Experience-Tags-Item'>{item}</span>
+                            );
+                          },[])}</p>
+                        </div>
                       </div>
                     </li>
                   );
@@ -35,7 +43,6 @@ function Experience() {
           </div>
 
         </div>
-      </div>
       <PageFooter />
     </>
   );

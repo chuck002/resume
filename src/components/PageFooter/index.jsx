@@ -5,7 +5,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function PageFooter() {
     return (
         <BottomNavigation style={{
-            backgroundColor: 'black',
             color: 'darkgray',
             display: 'flex',
             flexDirection: 'column',

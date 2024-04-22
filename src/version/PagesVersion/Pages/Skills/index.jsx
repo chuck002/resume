@@ -6,7 +6,6 @@ function Education() {
   return (
     <>
       <PageNavBar />
-      <div className="Container">
         <div className='Container-Card'>
           <div className='Container-Card-Title'>
             <h3>Conocimientos</h3>
@@ -69,7 +68,6 @@ function Education() {
           </div>
 
         </div>
-      </div>
       <PageFooter />
     </>
   );

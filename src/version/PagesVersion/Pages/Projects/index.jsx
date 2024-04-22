@@ -6,7 +6,6 @@ function Projects() {
   return (
     <>
         <PageNavBar />
-      <div className="Container">
         <div className='Container-Card'>
           <div className='Container-Card-Title'>
             <h3>Conocimientos</h3>
@@ -66,7 +65,6 @@ function Projects() {
           </div>
 
         </div>
-      </div>
       <PageFooter />
     </>
   );
