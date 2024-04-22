@@ -9,7 +9,7 @@ function PageNavBar() {
         <div className="NavBar">
             <div className="NavBar-Container">
                 <div className="NavBar-Container-Logo">
-                    <h1>Logo</h1>
+                    <h1 className='NavBar-Logo'>JL</h1>
                 </div>
                 <div className="NavBar-Container-Menu">
                     <ul>
