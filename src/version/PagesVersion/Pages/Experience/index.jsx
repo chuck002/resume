@@ -1,6 +1,7 @@
 import PageNavBar from '../../../../components/PageNavBar';
 import PageFooter from '../../../../components/PageFooter';
 import ExperienceJson from '../../../../../src/assets/Data/Experience.json';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import './Experience.css'
 
 function Experience() {
@@ -30,7 +31,7 @@ function Experience() {
                           <p>{
                             item.tecnologies.map((item, index) => {
                             return (
-                              <span key={index} className='Experience-Tags-Item'>{item}</span>
+                              <span key={index} className='Experience-Tags-Item'>👉🏼{item}</span>
                             );
                           },[])}</p>
                         </div>

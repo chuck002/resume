@@ -6,7 +6,6 @@ import './PageNavBar.css';
 function PageNavBar() {
     return (
         <>
-        <div className="NavBar">
             <div className="NavBar-Container">
                 <div className="NavBar-Container-Logo">
                     <h1 className='NavBar-Logo'>JL</h1>
@@ -24,7 +23,6 @@ function PageNavBar() {
                     </ul>
                 </div>
             </div>
-        </div>
         </>
     );
 }
