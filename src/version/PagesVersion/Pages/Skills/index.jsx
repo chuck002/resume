@@ -11,8 +11,8 @@ function Education() {
             <h3>Conocimientos</h3>
           </div>
           <div className='Container-Card-Content'>
-            <p><h1>Lenguajes de programación.</h1>
-            <ul>
+            <h1>Lenguajes de programación.</h1>
+            <p><ul>
               <li>Java</li>
               <li>JavaScript</li>
               <li>SQL</li>
