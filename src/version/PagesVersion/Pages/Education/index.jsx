@@ -11,36 +11,36 @@ function Education() {
   return (
     <>
       <PageNavBar />
-        <div className='Container-Card'>
-          <div className='Container-Card-Title'>
+        <div className='Container-Card-Education'>
+          <div className='Container-Card-Title-Education'>
             <h3>Educacion Formal y Cursos</h3>
           </div>
-          <div className='Container-Card-Content'>
+          <div className='Container-Card-Content-Education'>
             <ul>
               <li>
-                <div className='Lista-Experience-Title'>
-                  <span className='Experience-fecha'>2019 - Actualidad</span>
-                  <span className='Experience-empresa'>Instituto Nacional Superior del Profesorado Tecnico (UTN - Argentina) Tecnico Superior en Informatica Aplicada</span>
+                <div className='Lista-Experience-Title-Education'>
+                  <span className='Experience-fecha-Education'>2019 - Actualidad</span>
+                  <span className='Experience-empresa-Education'>Instituto Nacional Superior del Profesorado Tecnico (UTN - Argentina) Tecnico Superior en Informatica Aplicada</span>
                 </div>
-                <div className='Lista-Experience-Content'>
+                <div className='Lista-Experience-Content-Education'>
                   <p>Actualmente cursando las ultimas materias de la carrera con finalizacion aproximada para el año 2025.</p>
                 </div>
               </li>
               <li>
-                <div className='Lista-Experience-Title'>
-                  <span className='Experience-fecha'>01/2021 - 11/2021</span>
-                  <span className='Experience-empresa'>CIAO - ESPACIO DE IDIOMAS (Argentina)</span>
+                <div className='Lista-Experience-Title-Education'>
+                  <span className='Experience-fecha-Education'>01/2021 - 11/2021</span>
+                  <span className='Experience-empresa-Education'>CIAO - ESPACIO DE IDIOMAS (Argentina)</span>
                 </div>
-                <div className='Lista-Experience-Content'>
+                <div className='Lista-Experience-Content-Education'>
                   <p>Nivel de Ingles B1.2. Curso Certificado en Noviembre de 2021.</p>
                 </div>
               </li>
               <li>
-                <div className='Lista-Experience-Title'>
-                  <span className='Experience-fecha'>26/01/2023</span>
-                  <span className='Experience-empresa'>Curso Profesional de Git y Github (Platzi)</span>
+                <div className='Lista-Experience-Title-Education'>
+                  <span className='Experience-fecha-Education'>26/01/2023</span>
+                  <span className='Experience-empresa-Education'>Curso Profesional de Git y Github (Platzi)</span>
                 </div>
-                <div className='Lista-Experience-Content'>
+                <div className='Lista-Experience-Content-Education'>
                   <p>Certificacion: <a href="https://platzi.com/p/ljavy86/curso/1557-git-github/diploma/detalle/" 
                     onMouseEnter={onMouseEnter}
                     onMouseLeave={onMouseLeave}
@@ -48,7 +48,7 @@ function Education() {
                 </div>
               </li>
               <li>
-                <div className='Lista-Experience-Title'>
+                <div className='Lista-Experience-Title-Education'>
                   <span className='Experience-fecha'>13/02/2023</span>
                   <span className='Experience-empresa'>Introduccion a la Terminal y Linea de Comandos (Platzi)</span>
                 </div>

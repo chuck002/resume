@@ -6,11 +6,11 @@ function Education() {
   return (
     <>
       <PageNavBar />
-        <div className='Container-Card'>
-          <div className='Container-Card-Title'>
+        <div className='Container-Card-Skills'>
+          <div className='Container-Card-Title-Skills'>
             <h3>Conocimientos</h3>
           </div>
-          <div className='Container-Card-Content'>
+          <div className='Container-Card-Content-Skills'>
             <h1>Lenguajes de programación.</h1>
             <p><ul>
               <li>Java</li>

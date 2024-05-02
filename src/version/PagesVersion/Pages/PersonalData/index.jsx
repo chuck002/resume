@@ -13,12 +13,12 @@ function PersonalData() {
   return (
     <>
       <PageNavBar />
-        <div className='Container-Title'>
+        <div className='Container-Title-Contact'>
           <h1>Contact Info</h1>
         </div>
 
-        <div className='Container-Card'>
-          <div className='Container-Card-Left'>
+        <div className='Container-Card-Contact'>
+          <div className='Container-Card-Left-Contact'>
           <Avatar alt="Remy Sharp" src={img} sx={{ width: 100, height: 100 }} />
             <h2>Social Networks</h2>
             <GitHubIcon titleAccess='/chuck002'/><Link to='https://www.github.com/chuck002'>https://www.github.com/chuck002</Link>
@@ -27,7 +27,7 @@ function PersonalData() {
             <p>Phone: +54 011 15 6264 5087</p>
             <p>Linkedin: /javy-luna</p>
           </div>
-          <div className='Container-Card-Rigth'>
+          <div className='Container-Card-Rigth-Contact'>
           <h2>Personal Information</h2>
             <p>Name: Javier Luna</p>
             <p>Email: javylunadev@gmail.com</p>

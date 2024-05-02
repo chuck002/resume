@@ -1,15 +1,15 @@
 
-.Container-Title{
+.Container-Title-Contact{
     display: block;
     margin: 10px;
 }
 
-.Container-Card{
+.Container-Card-Contact{
     display: flex;
     margin: 10px;
 }
 
-.Container-Card-Left{
+.Container-Card-Left-Contact{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@
     height: 100%;
 }
 
-.Container-Card-Rigth{
+.Container-Card-Rigth-Contact{
     display: flex;
     flex-direction: column;
     align-items: left;

@@ -1,29 +1,25 @@
-
-.Container-Title{
+.Container-Title-Education {
     display: block;
     margin: 10px;
 }
 
-.Container-Card{
+.Container-Card-Education {
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
 
-.Container-Card-Title{
+.Container-Card-Title-Education {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
     height: 100%;
-
-}
-
-.Container-Card-Title{
     font-size: 20px;
 }
 
-.Container-Card-Content{
+
+.Container-Card-Content-Education {
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -32,7 +28,7 @@
     height: 100%;
 }
 
-.Lista-Experience-Title{
+.Lista-Experience-Title-Education {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,7 +37,7 @@
     height: 100%
 }
 
-.Experience-fecha{
+.Experience-fecha-Education {
     font-weight: bold;
     background-color: grey;
     border-radius: 25px;
@@ -51,12 +47,12 @@
     padding-right: 8px;
 }
 
-.Experience-empresa{
+.Experience-empresa-Education {
     font-weight: 600;
     margin-left: 16px;
 }
 
-.Lista-Experience-Content{
+.Lista-Experience-Content-Education {
     display: flex;
     flex-direction: column;
     align-items: left;

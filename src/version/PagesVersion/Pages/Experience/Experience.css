@@ -1,29 +1,24 @@
-
-.Container-Title{
+.Container-Title-Experience {
     display: block;
     margin: 10px;
 }
 
-.Container-Card{
+.Container-Card-Experience {
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
 
-.Container-Card-Title{
+.Container-Card-Title-Experience {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
     height: 100%;
-
-}
-
-.Container-Card-Title{
     font-size: 20px;
 }
 
-.Container-Card-Content{
+.Container-Card-Content-Experience {
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -32,7 +27,7 @@
     height: 100%;
 }
 
-.Container-Card-Content ul li{
+.Container-Card-Content-Experience ul li {
     background-color: aqua;
     list-style-type: none;
     margin-bottom: 36px;
@@ -41,7 +36,7 @@
     border-radius: 8px;
 }
 
-.Lista-Experience-Title{
+.Lista-Experience-Title-Experience {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,7 +44,7 @@
     height: 100%
 }
 
-.Experience-fecha{
+.Experience-fecha-Experience {
     font-weight: italic;
     font-size: small;
     background-color: grey;
@@ -61,24 +56,26 @@
     color: aliceblue;
 }
 
-.Experience-empresa{
+.Experience-empresa-Experience {
     font-weight: 600;
     font-size: medium;
     margin-left: 16px;
 }
 
-.Lista-Experience-Content{
+.Lista-Experience-Content-Experience {
     display: flex;
     flex-direction: column;
     align-items: left;
     text-align: left;
     height: 100%;
 }
-.Experience-Tags{
+
+.Experience-Tags-Experience {
     margin-right: 12px;
     margin-left: 16px;
 }
-.Experience-Tags-Item{
+
+.Experience-Tags-Item-Experience {
     display: inline;
     margin-right: 4px;
     background-color: rgb(143, 143, 5);

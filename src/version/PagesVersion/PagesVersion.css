@@ -1,16 +1,16 @@
 
-.Container-Title{
+.Container-Title-Index{
     display: block;
     margin: 10px;
 }
 
-.Container-Card{
+.Container-Card-Index{
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
 
-.Container-Card-Title{
+.Container-Card-Title-Index{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@
 
 }
 
-.Container-Card-Content{
+.Container-Card-Content-Index{
     display: flex;
     flex-direction: column;
     align-items: left;

@@ -9,15 +9,15 @@ function PageVersion() {
     return (
         <>
             <PageNavBar />
-                <div className='Container-Title'>
+                <div className='Container-Title-Index'>
                     <h1>Portfolio Personal</h1>
                 </div>
-                <div className='Container-Card'>
-                    <div className='Container-Card-Title'>
+                <div className='Container-Card-Index'>
+                    <div className='Container-Card-Title-Index'>
                         <Avatar alt="Javy Luna" src={img} sx={{ width: 300, height: 300 }} />
                         <h3>Carta de Presentacion</h3>
                     </div>
-                    <div className='Container-Card-Content'>
+                    <div className='Container-Card-Content-Index'>
                         <p>Bienvenido y antes que nada, queria agradecerle por llegar hasta aqui a visualizar mi portfolio.</p>
                         <p>Soy un estudiante de la Tecnicatura de Informatica Aplicada. En el Instituto Nacional Superior del Profesorado Tecnico de la Universidad Tecnologica Nacional en Argentina.</p>
                         <p>Este porfolio fue creado para contar un poco acerca de mi y de mi camino profesional dentro de este apasionante mundo de la industria IT.</p>

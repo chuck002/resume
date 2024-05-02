@@ -8,29 +8,29 @@ function Experience() {
   return (
     <>
       <PageNavBar />
-        <div className='Container-Card'>
-          <div className='Container-Card-Title'>
+        <div className='Container-Card-Experience'>
+          <div className='Container-Card-Title-Experience'>
             <h3>Experiencia Laboral</h3>
           </div>
-          <div className='Container-Card-Content'>
+          <div className='Container-Card-Content-Experience'>
             <ul>
                 {
                   ExperienceJson.languaje.spanish.Experience.reverse().map((item, index) => {
                   return (
                     <li key={index}>
                       <div>
-                        <div><span className='Experience-empresa'>{item.Company}</span></div>
-                        <div className='Lista-Experience-Title'>
-                          <span className='Experience-fecha'>{item.Duration}</span>
+                        <div><span className='Experience-empresa-Experience'>{item.Company}</span></div>
+                        <div className='Lista-Experience-Title-Experience'>
+                          <span className='Experience-fecha-Experience'>{item.Duration}</span>
                         </div>
-                        <div className='Lista-Experience-Content'>
+                        <div className='Lista-Experience-Content-Experience'>
                           <p>{item.Description}</p>
                         </div>
-                        <div className='Experience-Tags'>
+                        <div className='Experience-Tags-Experience'>
                           <p>{
                             item.tecnologies.map((item, index) => {
                             return (
-                              <span key={index} className='Experience-Tags-Item'>👉🏼{item}</span>
+                              <span key={index} className='Experience-Tags-Item-Experience'>👉🏼{item}</span>
                             );
                           },[])}</p>
                         </div>
