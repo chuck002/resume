@@ -32,6 +32,15 @@
     height: 100%;
 }
 
+.Container-Card-Content ul li{
+    background-color: aqua;
+    list-style-type: none;
+    margin-bottom: 36px;
+    padding: 16px;
+    border: 1.5px solid black;
+    border-radius: 8px;
+}
+
 .Lista-Experience-Title{
     display: flex;
     flex-direction: row;
@@ -49,6 +58,7 @@
     padding-bottom: 2px;
     padding-left: 4px;
     padding-right: 4px;
+    color: aliceblue;
 }
 
 .Experience-empresa{
@@ -77,4 +87,5 @@
     padding-bottom: 2px;
     padding-left: 8px;
     padding-right: 8px;
+    color: aliceblue;
 }

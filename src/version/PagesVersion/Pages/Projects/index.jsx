@@ -1,6 +1,7 @@
 import PageNavBar from '../../../../components/PageNavBar';
 import PageFooter from '../../../../components/PageFooter';
 import './Projects.css'
+import ProjectsData from '../../../../assets/Data/Projects.json';
 
 function Projects() {
   return (
@@ -8,7 +9,7 @@ function Projects() {
         <PageNavBar />
         <div className='Container-Card'>
           <div className='Container-Card-Title'>
-            <h3>Conocimientos</h3>
+            <h3>Proyectos Personales</h3>
           </div>
           <div className='Container-Card-Content'>
             <ul>

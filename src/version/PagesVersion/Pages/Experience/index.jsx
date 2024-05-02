@@ -1,7 +1,6 @@
 import PageNavBar from '../../../../components/PageNavBar';
 import PageFooter from '../../../../components/PageFooter';
 import ExperienceJson from '../../../../../src/assets/Data/Experience.json';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import './Experience.css'
 
 function Experience() {
