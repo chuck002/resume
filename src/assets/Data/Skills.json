@@ -1,0 +1,322 @@
+{
+    "languaje": {
+        "english": {
+            "Skills": [
+                {
+                    "title": "Programming Languages",
+                    "data": [
+                        {
+                            "name": "Java",
+                            "description": "A general-purpose programming language that has become one of the most popular for enterprise application development."
+                        },
+                        {
+                            "name": "JavaScript",
+                            "description": "A high-level programming language primarily used in web development to create interactive client-side content."
+                        },
+                        {
+                            "name": "SQL",
+                            "description": "A standard language for querying and manipulating relational databases."
+                        },
+                        {
+                            "name": "HTML5",
+                            "description": "The latest version of the standard markup language used for creating and designing web pages and web applications."
+                        },
+                        {
+                            "name": "CSS",
+                            "description": "A style sheet language used to describe the presentation of documents written in HTML."
+                        }
+                    ]
+                },
+                {
+                    "title": "Frameworks and Libraries",
+                    "data": [
+                        {
+                            "name": "SpringBoot",
+                            "description": "A Java framework that simplifies the development of Spring-based enterprise applications."
+                        },
+                        {
+                            "name": "Hibernate",
+                            "description": "An object-relational mapping framework for Java application development."
+                        },
+                        {
+                            "name": "NodeJS",
+                            "description": "A server-side JavaScript runtime environment that allows building scalable web applications."
+                        },
+                        {
+                            "name": "Express",
+                            "description": "A web application framework for Node.js, designed to build web applications and APIs."
+                        },
+                        {
+                            "name": "ReactJS",
+                            "description": "An open-source JavaScript library for building user interfaces."
+                        },
+                        {
+                            "name": "Bootstrap",
+                            "description": "An open-source front-end framework for developing websites and web applications."
+                        },
+                        {
+                            "name": "Sequelize",
+                            "description": "A Node.js ORM for SQL databases, supporting PostgreSQL, MySQL, MariaDB, SQLite, and MSSQL."
+                        },
+                        {
+                            "name": "Material UI",
+                            "description": "A React component library that implements Material Design principles."
+                        },
+                        {
+                            "name": "Selenium",
+                            "description": "An automation testing tool that supports executing scripts in web browsers."
+                        },
+                        {
+                            "name": "Puppeteer",
+                            "description": "A Node.js framework that provides a high-level API for controlling Chrome or Chromium through the DevTools Protocol."
+                        }
+                    ]
+                },
+                {
+                    "title": "Relational Databases",
+                    "data": [
+                        {
+                            "name": "MySQL",
+                            "description": "An open-source relational database management system."
+                        },
+                        {
+                            "name": "SQLite",
+                            "description": "An open-source library that provides a lightweight SQL database engine."
+                        }
+                    ]
+                },
+                {
+                    "title": "Non Relational Databases (NoSQL)",
+                    "data": [
+                        {
+                            "name": "MongoDB",
+                            "description": "An open-source NoSQL document database and document-oriented database."
+                        }
+                    ]
+                },
+                {
+                    "title": "Development Tools",
+                    "data": [
+                        {
+                            "name": "Git",
+                            "description": "An open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+                        },
+                        {
+                            "name": "Github",
+                            "description": "A collaborative development platform that uses Git for version control of code."
+                        },
+                        {
+                            "name": "Postman",
+                            "description": "A tool that facilitates the creation, usage, and sharing of APIs."
+                        },
+                        {
+                            "name": "Visual Studio Code",
+                            "description": "A source-code editor developed by Microsoft that supports debugging, syntax highlighting, intelligent code completion, snippets, and code refactoring."
+                        },
+                        {
+                            "name": "Eclipse",
+                            "description": "An integrated development environment (IDE) widely used in Java programming."
+                        },
+                        {
+                            "name": "AWS S3",
+                            "description": "Amazon Web Services' cloud storage service for storing and retrieving data."
+                        },
+                        {
+                            "name": "Docker",
+                            "description": "A platform software that enables developers to package, ship, and run applications in containers."
+                        }
+                    ]
+                },
+                {
+                    "title": "Operating Systems",
+                    "data": [
+                        {
+                            "name": "Windows",
+                            "description": "An operating system developed by Microsoft widely used on personal computers and servers."
+                        },
+                        {
+                            "name": "Linux",
+                            "description": "An open-source Unix-like operating system commonly used on servers and other computing environments."
+                        }
+                    ]
+                },
+                {
+                    "title": "Ticket Management Tools",
+                    "data": [
+                        {
+                            "name": "Monday",
+                            "description": "A project management and team collaboration platform that enables teams to plan, track, and collaborate on projects efficiently."
+                        },
+                        {
+                            "name": "Jira",
+                            "description": "A issue tracking and project management tool developed by Atlassian used for planning, tracking, and managing agile software development work."
+                        },
+                        {
+                            "name": "Trello",
+                            "description": "A web-based project management application that uses boards and lists to organize tasks and projects visually."
+                        }
+                    ]
+                }
+            ]
+        },
+        "spanish": {
+            "Habilidades": [
+                {
+                    "title": "Lenguajes de Programación",
+                    "data": [
+                        {
+                            "name": "Java",
+                            "description": "Un lenguaje de programación de propósito general que se ha convertido en uno de los más populares en el desarrollo de aplicaciones empresariales."
+                        },
+                        {
+                            "name": "JavaScript",
+                            "description": "Un lenguaje de programación de alto nivel utilizado principalmente en el desarrollo web para crear contenido interactivo del lado del cliente."
+                        },
+                        {
+                            "name": "SQL",
+                            "description": "Un lenguaje estándar para consultas y manipulación de bases de datos relacionales."
+                        },
+                        {
+                            "name": "HTML5",
+                            "description": "La última versión del lenguaje de marcado estándar utilizado para crear y diseñar páginas web y aplicaciones web."
+                        },
+                        {
+                            "name": "CSS",
+                            "description": "Un lenguaje de estilo utilizado para describir la presentación de documentos escritos en HTML."
+                        }
+                    ]
+                },
+                {
+                    "title": "Frameworks y Bibliotecas",
+                    "data": [
+                        {
+                            "name": "SpringBoot",
+                            "description": "Un framework de Java que simplifica el desarrollo de aplicaciones empresariales basadas en Spring."
+                        },
+                        {
+                            "name": "Hibernate",
+                            "description": "Un framework de mapeo objeto-relacional para el desarrollo de aplicaciones Java."
+                        },
+                        {
+                            "name": "NodeJS",
+                            "description": "Un entorno de ejecución de JavaScript del lado del servidor que permite construir aplicaciones web escalables."
+                        },
+                        {
+                            "name": "Express",
+                            "description": "Un framework de aplicaciones web para Node.js, diseñado para construir aplicaciones web y APIs."
+                        },
+                        {
+                            "name": "ReactJS",
+                            "description": "Una biblioteca de JavaScript de código abierto para construir interfaces de usuario."
+                        },
+                        {
+                            "name": "Bootstrap",
+                            "description": "Un framework front-end de código abierto para desarrollar sitios web y aplicaciones web."
+                        },
+                        {
+                            "name": "Sequelize",
+                            "description": "Un ORM de Node.js para bases de datos SQL, compatible con PostgreSQL, MySQL, MariaDB, SQLite y MSSQL."
+                        },
+                        {
+                            "name": "Material UI",
+                            "description": "Una biblioteca de componentes de React que implementa los principios de diseño de Material Design."
+                        },
+                        {
+                            "name": "Selenium",
+                            "description": "Una herramienta de pruebas de automatización que admite la ejecución de scripts en navegadores web."
+                        },
+                        {
+                            "name": "Puppeteer",
+                            "description": "Un framework de Node.js que proporciona una API de alto nivel para controlar Chrome o Chromium a través del protocolo DevTools."
+                        }
+                    ]
+                },
+                {
+                    "title": "Bases de Datos Relacionales",
+                    "data": [
+                        {
+                            "name": "MySQL",
+                            "description": "Un sistema de gestión de bases de datos relacional de código abierto."
+                        },
+                        {
+                            "name": "SQLite",
+                            "description": "Una biblioteca de código abierto que proporciona un motor de base de datos SQL ligero."
+                        }
+                    ]
+                },
+                {
+                    "title": "Bases de Datos No Relacionales (NoSQL)",
+                    "data": [
+                        {
+                            "name": "MongoDB",
+                            "description": "Una base de datos NoSQL de documentos de código abierto y orientada a documentos."
+                        }
+                    ]
+                },
+                {
+                    "title": "Herramientas de Desarrollo",
+                    "data": [
+                        {
+                            "name": "Git",
+                            "description": "Un sistema de control de versiones distribuido y de código abierto diseñado para manejar desde proyectos pequeños hasta muy grandes con velocidad y eficiencia."
+                        },
+                        {
+                            "name": "Github",
+                            "description": "Una plataforma de desarrollo colaborativo que utiliza Git para el control de versiones de código."
+                        },
+                        {
+                            "name": "Postman",
+                            "description": "Una herramienta que facilita la creación, el uso y la compartición de APIs."
+                        },
+                        {
+                            "name": "Visual Studio Code",
+                            "description": "Un editor de código fuente desarrollado por Microsoft que admite depuración, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código."
+                        },
+                        {
+                            "name": "Eclipse",
+                            "description": "Un entorno de desarrollo integrado (IDE) ampliamente utilizado en la programación de Java."
+                        },
+                        {
+                            "name": "AWS S3",
+                            "description": "Un servicio de almacenamiento en la nube de Amazon Web Services."
+                        },
+                        {
+                            "name": "Docker",
+                            "description": "Una plataforma de software que permite a los desarrolladores empaquetar, enviar y ejecutar aplicaciones en contenedores."
+                        }
+                    ]
+                },
+                {
+                    "title": "Sistemas Operativos",
+                    "data": [
+                        {
+                            "name": "Windows",
+                            "description": "Un sistema operativo desarrollado por Microsoft ampliamente utilizado en computadoras personales y servidores."
+                        },
+                        {
+                            "name": "Linux",
+                            "description": "Un sistema operativo de código abierto basado en Unix comúnmente utilizado en servidores y otros entornos informáticos."
+                        }
+                    ]
+                },
+                {
+                    "title": "Herramientas de Gestión de Tickets",
+                    "data": [
+                        {
+                            "name": "Monday",
+                            "description": "Una plataforma de gestión de proyectos y colaboración en equipo que permite a los equipos planificar, realizar un seguimiento y colaborar en proyectos de manera eficiente."
+                        },
+                        {
+                            "name": "Jira",
+                            "description": "Una herramienta de seguimiento de problemas y gestión de proyectos desarrollada por Atlassian utilizada para planificar, rastrear y administrar el trabajo ágil de desarrollo de software."
+                        },
+                        {
+                            "name": "Trello",
+                            "description": "Una aplicación de gestión de proyectos basada en la web que utiliza tableros y listas para organizar tareas y proyectos visualmente."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
