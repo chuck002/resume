@@ -2,15 +2,16 @@ import PageNavBar from '../../../../components/PageNavBar';
 import PageFooter from '../../../../components/PageFooter';
 import './Projects.css'
 import ProjectsData from '../../../../assets/Data/Projects.json';
+import { Card, CardContent, Typography, Tooltip, Chip } from '@mui/material';
 
 function Projects() {
   return (
     <>
         <PageNavBar />
         <div className='Container-Projects'>
-          <div className='Container-Card-Title-Projects'>
+        <Typography variant="h4" gutterBottom>
             <h3>Proyectos Personales</h3>
-          </div>
+          </Typography>
           <div className='Container-Card-Content-Projects'>
             <div className='Container-Images-Projects'>
             imagen

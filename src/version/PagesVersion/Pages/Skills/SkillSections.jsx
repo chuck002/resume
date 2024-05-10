@@ -3,11 +3,8 @@ import { Card, CardContent, Typography, Grid, Tooltip } from '@mui/material';
 
 const SkillsSection = () => {
     return (
-        <div>
-            <Typography variant="h4" gutterBottom>
-                {Skills.languaje.spanish.title}
-            </Typography>
-            <Grid container spacing={3}>
+        <>
+            <Grid container spacing={3} className='Container-Card-Content-Skills'>
                 {Skills.languaje.spanish.Habilidades.map((item, index) => {
                     return (
                         <Grid item xs={12} sm={6} md={4} key={index}>
@@ -29,7 +26,7 @@ const SkillsSection = () => {
                     );
                 }, [])}
             </Grid>
-        </div>
+        </>
     );
 };
 

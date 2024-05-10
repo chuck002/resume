@@ -7,16 +7,16 @@
 .Container-Card-Index{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    align-items: center;
+    margin: 24px;
+    padding: 24px;
 }
 
 .Container-Card-Title-Index{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    height: 100%;
-
+    align-items: left;
+    text-align: left;
 }
 
 .Container-Card-Content-Index{
@@ -26,4 +26,11 @@
     text-align: center;
     margin: 10px;
     height: 100%;
+}
+.Container-Avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

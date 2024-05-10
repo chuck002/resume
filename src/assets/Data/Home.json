@@ -1,0 +1,52 @@
+{
+    "spanish": {
+        "titles": [
+            "Inicio",
+            "Experiencia",
+            "Educación",
+            "Habilidades",
+            "Proyectos",
+            "Contacto"
+        ],
+        "about": {
+            "title": "Acerca de mi",
+            "text": "Bienvenido y antes que nada, quería agradecerle por llegar hasta aquí a visualizar mi portfolio. Soy un estudiante de la Tecnicatura de Informática Aplicada. En el Instituto Nacional Superior del Profesorado Técnico de la Universidad Tecnológica Nacional en Argentina. Este portfolio fue creado para contar un poco acerca de mí y de mi camino profesional dentro de este apasionante mundo de la industria IT. Mi nombre es Javier Oscar Luna y vivo en Tigre (Provincia de Buenos Aires en Argentina), tengo 37 años de edad y me desempeño como Software Developer desde hace más de 2 años. En este portfolio podrás encontrar información acerca de mi experiencia laboral, educación, habilidades y proyectos que he realizado. Si estás interesado en contactarme, no dudes en hacerlo a través de mis redes sociales o enviándome un email en la sección de contacto. Gracias por tu tiempo y espero que disfrutes de tu recorrido. Saludos."
+        },
+        "image": {
+            "url": "https://avatars.githubusercontent.com/u/47200007?v=4",
+            "alt": "Foto de perfil"
+        },
+        "contact": {
+            "email": "javylunadev@gmail.com",
+            "phone": "+54 (011) 15 6264 5087",
+            "location": "Tigre - Bs As",
+            "linkedin": "https://www.linkedin.com/in/javy-luna",
+            "github": "https://github.com/chuck002"
+        }
+    },
+    "english": {
+        "titles": [
+            "Home",
+            "Experience",
+            "Education",
+            "Skills",
+            "Projects",
+            "Contact"
+        ],
+        "about": {
+            "title": "About me",
+            "text": "Welcome and first of all, I wanted to thank you for coming here to view my portfolio. I am a student of Applied Computer Science at the National Institute of Technical Teaching of the National Technological University in Argentina. This portfolio was created to tell a little about me and my professional journey within this exciting world of the IT industry. My name is Javier Oscar Luna and I live in Tigre (Buenos Aires Province in Argentina), I am 37 years old and I have been working as a Software Developer for more than 2 years. In this portfolio you will find information about my work experience, education, skills, and projects I have done. If you are interested in contacting me, do not hesitate to do so through my social networks or by sending me an email in the contact section. Thank you for your time and I hope you enjoy your journey. Regards."
+        },
+        "image": {
+            "url": "https://avatars.githubusercontent.com/u/47200007?v=4",
+            "alt": "Profile picture"
+        },
+        "contact": {
+            "email": "javylunadev@gmail.com",
+            "phone": "+54 (011) 15 6264 5087",
+            "location": "Tigre - Bs As",
+            "linkedin": "https://www.linkedin.com/in/javy-luna",
+            "github": "https://github.com/chuck002"
+        }
+    }
+}

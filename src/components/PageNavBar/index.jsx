@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import MenuView from '../MenuView';
 import MenuViewLanguajes from '../MenuViewLanguages';
 import { Typography } from '@mui/material';
+import Avatar from '@mui/material/Avatar';
+import { blue } from '@mui/material/colors';
 import './PageNavBar.css';
 
 function PageNavBar() {
@@ -9,7 +11,10 @@ function PageNavBar() {
         <>
             <div className="NavBar-Container">
                 <div className="NavBar-Container-Logo">
-                    <h1 className='NavBar-Logo'>JL</h1>
+                <Avatar sx={{ bgcolor: blue[500] }} aria-label="recipe">
+            JL
+          </Avatar>
+            
                 </div>
                 <div className="NavBar-Container-Menu">
                     <ul>
