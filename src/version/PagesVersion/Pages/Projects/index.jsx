@@ -2,27 +2,39 @@ import PageNavBar from '../../../../components/PageNavBar';
 import PageFooter from '../../../../components/PageFooter';
 import './Projects.css'
 import ProjectsData from '../../../../assets/Data/Projects.json';
-import { Card, CardContent, Typography, Tooltip, Chip } from '@mui/material';
+import { Card, CardContent, Typography, Grid, CardMedia } from '@mui/material';
 
 function Projects() {
   return (
     <>
-        <PageNavBar />
-        <div className='Container-Projects'>
+      <PageNavBar />
+      <div className='Container-Projects'>
         <Typography variant="h4" gutterBottom>
-            <h3>Proyectos Personales</h3>
-          </Typography>
-          <div className='Container-Card-Content-Projects'>
-            <div className='Container-Images-Projects'>
-            imagen
-            </div>
-            <div className='Container-Readme-Projects'>
-            README.md
-            </div>
-            
-          </div>
+          {ProjectsData.languaje.spanish.title}
+        </Typography>
 
+        <div style={{ width: '70vw', margin: '0 auto' }}>
+          <Card>
+            <CardContent>
+              <Grid container spacing={2}>
+                <Grid item xs={12} md={4}>
+                  <CardMedia
+                    component="img"
+                    height="140"
+                    image="ruta-de-la-imagen.jpg"
+                    alt="Imagen"
+                  />
+                </Grid>
+                <Grid item xs={12} md={8}>
+                  <Typography variant="body1" component="p">
+                    Descripción de la tarjeta...
+                  </Typography>
+                </Grid>
+              </Grid>
+            </CardContent>
+          </Card>
         </div>
+      </div >
       <PageFooter />
     </>
   );

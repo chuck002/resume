@@ -17,6 +17,9 @@
             "alt": "Foto de perfil"
         },
         "contact": {
+            "title": "Información de contacto",
+            "subtitle1": "Informacion Personal",
+            "subtitle2": "Redes Sociales",
             "email": "javylunadev@gmail.com",
             "phone": "+54 (011) 15 6264 5087",
             "location": "Tigre - Bs As",
@@ -42,6 +45,9 @@
             "alt": "Profile picture"
         },
         "contact": {
+            "title": "Contact infomation",
+            "subtitle1": "Personal Information",
+            "subtitle2": "Social Networks",
             "email": "javylunadev@gmail.com",
             "phone": "+54 (011) 15 6264 5087",
             "location": "Tigre - Bs As",

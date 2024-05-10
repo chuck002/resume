@@ -5,7 +5,6 @@ import { Card, CardContent, Typography, Tooltip, Chip } from '@mui/material';
 import './Experience.css'
 
 function Experience() {
-  console.log(ExperienceJson);
   const reverseExperience = ExperienceJson.languaje.spanish.Experience.map((element, index, arr) => {
     const reverseIndex = arr.length - index - 1;
     return arr[reverseIndex];
@@ -15,7 +14,7 @@ function Experience() {
       <PageNavBar />
       <div className='Container-Card-Experience'>
         <Typography variant="h4" gutterBottom>
-          Experiencia
+          {ExperienceJson.languaje.spanish.title}
         </Typography>
         <div className='Container-Card-Content-Experience'>
 

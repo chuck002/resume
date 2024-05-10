@@ -10,7 +10,7 @@ function Education() {
       <PageNavBar />
       <div className='Container-Card-Education'>
         <Typography variant="h4" gutterBottom>
-          Educacion
+          {EducationJson.languaje.spanish.Education.title}
         </Typography>
         <div className='Container-Card-Content-Education'>
           <Card className='Container-Card-Index'>

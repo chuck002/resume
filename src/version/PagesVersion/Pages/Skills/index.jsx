@@ -3,7 +3,7 @@ import PageFooter from '../../../../components/PageFooter';
 import './Skills.css'
 import SkillsSection from './SkillSections';
 import Skills from '../../../../assets/Data/Skills.json'
-import { Card, CardContent, Typography, Grid, Tooltip } from '@mui/material';
+import { Typography } from '@mui/material';
 
 
 function Education() {

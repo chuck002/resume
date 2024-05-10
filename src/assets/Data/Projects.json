@@ -1,7 +1,8 @@
 {
     "languaje": {
         "spanish": {
-            "Experience": [
+            "title": "Proyectos Personales",
+            "Proyectos": [
                 {
                     "id": 1,
                     "Title": "My Repo",
@@ -89,7 +90,8 @@
             ]
         },
         "english": {
-            "Experience": [
+            "title": "Personals Projects",
+            "Projects": [
                 {
                     "id": 1,
                     "Title": "My Repo",
