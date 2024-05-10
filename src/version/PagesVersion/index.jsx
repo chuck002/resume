@@ -3,7 +3,7 @@ import './PagesVersion.css';
 import Avatar from '@mui/material/Avatar';
 import img from '../../../src/assets/perfil_blog.jpg';
 import PageFooter from '../../components/PageFooter';
-import { Card, CardContent, CardHeader, Typography, Tooltip, Chip } from '@mui/material';
+import { Card, CardContent, Typography } from '@mui/material';
 import Home from '../../assets/Data/Home.json';
 
 function PageVersion() {

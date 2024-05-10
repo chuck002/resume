@@ -2,58 +2,64 @@
     "languaje": {
         "spanish": {
             "Education": {
-                "Formal": [
-                    {
-                        "Duration": "2019 - Actualidad",
-                        "Institution": "Instituto Nacional Superior del Profesorado Técnico (UTN - Argentina)",
-                        "Degree": "Técnico Superior en Informática Aplicada",
-                        "Details": "Actualmente cursando las últimas materias de la carrera con finalización aproximada para el año 2025."
-                    }
-                ],
-                "Cursos": [
-                    {
-                        "Duration": "01/2021 - 11/2021",
-                        "Institution": "CIAO - ESPACIO DE IDIOMAS (Argentina)",
-                        "Course": "Nivel de Inglés B1.2.",
-                        "Certification": "Curso Certificado en Noviembre de 2021."
-                    },
-                    {
-                        "Duration": "26/01/2023",
-                        "Institution": "Platzi.com",
-                        "Course": "Curso Profesional de Git y Github",
-                        "Certification": "AquíDATOOOOOO!!!! 11111"
-                    },
-                    {
-                        "Duration": "13/02/2023",
-                        "Institution": "Platzi.com",
-                        "Course": "Introducción a la Terminal y Línea de Comandos (Platzi)",
-                        "Certification": "AquíDATOOOOOO!!!! 222222"
-                    },
-                    {
-                        "Duration": "12/07/2023",
-                        "Institution": "Platzi.com",
-                        "Course": "Curso Práctico de Frontend Developer (Platzi)",
-                        "Certification": "Aquí"
-                    },
-                    {
-                        "Duration": "14/02/2023",
-                        "Institution": "Platzi.com",
-                        "Course": "Curso de Prework: Configuración de Entorno de Desarrollo en Linux (Platzi)",
-                        "Certification": "Aquí"
-                    },
-                    {
-                        "Duration": "12/01/2023",
-                        "Institution": "Platzi.com",
-                        "Course": "Curso de FrontEnd Developer (Platzi)",
-                        "Certification": "Aquí"
-                    },
-                    {
-                        "Duration": "13/01/2023",
-                        "Institution": "Platzi.com",
-                        "Course": "Curso Básico de Javascript (Platzi)",
-                        "Certification": "Aquí ??"
-                    }
-                ]
+                "Formal": {
+                    "title": "Educación Formal",
+                    "data": [
+                        {
+                            "Duration": "2019 - Actualidad",
+                            "Institution": "Instituto Nacional Superior del Profesorado Técnico (UTN - Argentina)",
+                            "Degree": "Técnico Superior en Informática Aplicada",
+                            "Details": "Actualmente cursando las últimas materias de la carrera con finalización aproximada para el año 2025."
+                        }
+                    ]
+                },
+                "Cursos": {
+                    "title": "Cursos",
+                    "data": [
+                        {
+                            "Duration": "01/2021 - 11/2021",
+                            "Institution": "CIAO - ESPACIO DE IDIOMAS (Argentina)",
+                            "Course": "Nivel de Inglés B1.2.",
+                            "Certification": "Curso Certificado en Noviembre de 2021."
+                        },
+                        {
+                            "Duration": "26/01/2023",
+                            "Institution": "Platzi.com",
+                            "Course": "Curso Profesional de Git y Github",
+                            "Certification": "https://platzi.com/p/ljavy86/curso/1557-git-github/diploma/detalle/"
+                        },
+                        {
+                            "Duration": "13/02/2023",
+                            "Institution": "Platzi.com",
+                            "Course": "Introducción a la Terminal y Línea de Comandos (Platzi)",
+                            "Certification": "https://platzi.com/p/ljavy86/curso/2292-terminal/diploma/detalle/"
+                        },
+                        {
+                            "Duration": "12/07/2023",
+                            "Institution": "Platzi.com",
+                            "Course": "Curso Práctico de Frontend Developer (Platzi)",
+                            "Certification": "https://platzi.com/p/ljavy86/curso/2477-frontend-developer-practico/diploma/detalle/"
+                        },
+                        {
+                            "Duration": "14/02/2023",
+                            "Institution": "Platzi.com",
+                            "Course": "Curso de Prework: Configuración de Entorno de Desarrollo en Linux (Platzi)",
+                            "Certification": "https://platzi.com/p/ljavy86/curso/2383-prework-linux/diploma/detalle/"
+                        },
+                        {
+                            "Duration": "12/01/2023",
+                            "Institution": "Platzi.com",
+                            "Course": "Curso de FrontEnd Developer (Platzi)",
+                            "Certification": "https://platzi.com/p/ljavy86/curso/2467-frontend-developer/diploma/detalle/"
+                        },
+                        {
+                            "Duration": "13/01/2023",
+                            "Institution": "Platzi.com",
+                            "Course": "Curso Básico de Javascript (Platzi)",
+                            "Certification": "https://platzi.com/p/ljavy86/curso/1814-basico-javascript/diploma/detalle/"
+                        }
+                    ]
+                }
             }
         }
     }

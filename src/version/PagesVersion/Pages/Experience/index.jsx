@@ -37,6 +37,7 @@ function Experience() {
                               size="medium"
                               label={item}
                               color={'success'}
+                              className='Experience-Tags-Tags'
                             />
                           </Tooltip>
                         );
