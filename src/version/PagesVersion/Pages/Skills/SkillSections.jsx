@@ -5,7 +5,7 @@ const SkillsSection = () => {
     return (
         <div>
             <Typography variant="h4" gutterBottom>
-                Mis Habilidades
+                {Skills.languaje.spanish.title}
             </Typography>
             <Grid container spacing={3}>
                 {Skills.languaje.spanish.Habilidades.map((item, index) => {

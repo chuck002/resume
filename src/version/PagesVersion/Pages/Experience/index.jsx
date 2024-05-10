@@ -1,6 +1,7 @@
 import PageNavBar from '../../../../components/PageNavBar';
 import PageFooter from '../../../../components/PageFooter';
 import ExperienceJson from '../../../../../src/assets/Data/Experience.json';
+import { Card, CardContent, Typography, Tooltip } from '@mui/material';
 import './Experience.css'
 
 function Experience() {
@@ -8,41 +9,39 @@ function Experience() {
   return (
     <>
       <PageNavBar />
-        <div className='Container-Card-Experience'>
-          <div className='Container-Card-Title-Experience'>
-            <h3>Experiencia Laboral</h3>
-          </div>
-          <div className='Container-Card-Content-Experience'>
-            <ul>
-                {
-                  ExperienceJson.languaje.spanish.Experience.reverse().map((item, index) => {
-                  return (
-                    <li key={index}>
-                      <div>
-                        <div><span className='Experience-empresa-Experience'>{item.Company}</span></div>
-                        <div className='Lista-Experience-Title-Experience'>
-                          <span className='Experience-fecha-Experience'>{item.Duration}</span>
-                        </div>
-                        <div className='Lista-Experience-Content-Experience'>
-                          <p>{item.Description}</p>
-                        </div>
-                        <div className='Experience-Tags-Experience'>
-                          <p>{
-                            item.tecnologies.map((item, index) => {
-                            return (
-                              <span key={index} className='Experience-Tags-Item-Experience'>👉🏼{item}</span>
-                            );
-                          },[])}</p>
-                        </div>
-                      </div>
-                    </li>
-                  );
+      <div className='Container-Card-Experience'>
+        <Typography variant="h4" gutterBottom>
+          Experiencia
+        </Typography>
+        <div className='Container-Card-Content-Experience'>
+          <ul>
+            {
+              ExperienceJson.languaje.spanish.Experience.reverse().map((item, index) => {
+                return (
+                  <Card key={index} className='Experience-empresa-Experience'>
+                    <CardContent>
+                      <Typography variant="h6">{item.Company}</Typography>
+                      <Typography component="span">{item.Duration} <br /></Typography>
 
-                }, [])}
-            </ul>
-          </div>
+                      <Typography component="span">{item.Description} <br /></Typography>
+                      <Typography component="span" className='Experience-Tags-Experience'>
+                        {item.tecnologies.map((item, index) => {
+                          return (
+                            <Tooltip key={index} title={item.description} arrow>
+                              <Typography component="span" className='Experience-Tags-Item-Experience'>{item} </Typography>
+                            </Tooltip>
+                          );
+                        }, [])}
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                );
 
+              }, [])}
+          </ul>
         </div>
+
+      </div>
       <PageFooter />
     </>
   );

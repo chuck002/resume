@@ -1,7 +1,9 @@
 .Container-Card-Skills {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin-bottom: 115px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .Container-Card-Title-Skills {
