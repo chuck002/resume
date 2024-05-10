@@ -6,7 +6,7 @@
 .Container-Card-Experience {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 16px;
 }
 
 .Container-Card-Title-Experience {
@@ -25,15 +25,6 @@
     text-align: left;
     margin: 10px;
     height: 100%;
-}
-
-.Container-Card-Content-Experience ul li {
-    background-color: aqua;
-    list-style-type: none;
-    margin-bottom: 36px;
-    padding: 16px;
-    border: 1.5px solid black;
-    border-radius: 8px;
 }
 
 .Lista-Experience-Title-Experience {
@@ -71,6 +62,7 @@
 }
 
 .Experience-Tags-Experience {
+    margin-top: 12px;
     margin-right: 12px;
     margin-left: 16px;
 }
