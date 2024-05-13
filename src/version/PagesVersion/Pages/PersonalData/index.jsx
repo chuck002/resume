@@ -6,7 +6,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-router-dom';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import PageFooter from '../../../../components/PageFooter';
-import img from '../../../../assets/perfil_blog.jpg';
 import { Typography } from '@mui/material';
 import HomeJson from '../../../../assets/Data/Home.json'
 
