@@ -1,5 +1,5 @@
 import './App.css'
-import {Routes, Route} from 'react-router-dom'
+import {createHashRouter} from 'react-router-dom'
 import PageVersion from './version/PagesVersion/index.jsx'
 import PersonalData from './version/PagesVersion/Pages/PersonalData/index.jsx'
 import Experience from './version/PagesVersion/Pages/Experience/index.jsx'
@@ -9,15 +9,17 @@ import Projects from './version/PagesVersion/Pages/Projects/index.jsx'
 
 function App() {
 
+  const HashRouter = createHashRouter([
+    { path: '/', element: <PageVersion /> },
+    { path: '/PersonalData', element: <PersonalData /> },
+    { path: '/Experience', element: <Experience /> },
+    { path: '/Education', element: <Education /> },
+    { path: '/Skills', element: <Skills /> },
+    { path: '/Projects', element: <Projects /> },
+  ]);
+
   return (
-        <Routes>
-          <Route path="/" element={<PageVersion />} />
-          <Route path="/PersonalData" element={<PersonalData />} />
-          <Route path="/Experience" element={<Experience />} />
-          <Route path="/Education" element={<Education />} />
-          <Route path="/Skills" element={<Skills />} />
-          <Route path="/Projects" element={<Projects />} />
-        </Routes>
+        <HashRouter />
   )
 }
 
