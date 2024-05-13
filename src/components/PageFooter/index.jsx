@@ -2,6 +2,7 @@ import './PageFooter.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Typography } from '@mui/material';
+import HomeJson from '../../assets/Data/Home.json';
 
 function PageFooter() {
     return (
@@ -10,10 +11,10 @@ function PageFooter() {
                     <Typography component="span">Javier Oscar Luna 2024</Typography>
                     </div>
                     <div>
-                    <Typography component="span"><GitHubIcon /> GitHub</Typography>
+                    <a href={HomeJson.spanish.contact.github}><Typography component="span"><GitHubIcon /> GitHub</Typography></a>
                     </div>
                     <div>
-                    <Typography component="span"><LinkedInIcon /> LinkedIn</Typography>
+                    <a href={HomeJson.spanish.contact.linkedin}><Typography component="span"><LinkedInIcon /> LinkedIn</Typography></a>
                     </div>
                 </div>
     );

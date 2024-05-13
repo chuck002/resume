@@ -22,7 +22,7 @@ function PersonalData() {
 
         <div className='Container-Card-Contact'>
           <div className='Container-Card-Left-Contact'>
-            <Avatar alt="Remy Sharp" src={img} sx={{ width: 100, height: 100 }} />
+            <Avatar alt={HomeJson.spanish.image.alt} src={HomeJson.spanish.image.url} sx={{ width: 100, height: 100 }} />
             <h2>Social Networks</h2>
             <GitHubIcon titleAccess='/chuck002' /><Link to='https://www.github.com/chuck002'>https://www.github.com/chuck002</Link>
             <LinkedInIcon titleAccess='/javy-luna' /><Link to='https://www.linkedin.com/in/javy-luna'>https://www.linkedin.com/in/javy-luna</Link>
