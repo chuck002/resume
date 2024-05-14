@@ -39,6 +39,42 @@
                         }
                     ],
                     "Tecnologies": ["Java", "Spring Boot", "Thymeleaf", "Bootstrap", "MySQL"]
+                },
+                {
+                    "id": 2,
+                    "Title": "Spring Boot Application API",
+                    "Created_Date": "2021",
+                    "Last_commit":  "2024",
+                    "Description": "API creada en SpringBoot para un proyecto de la Universidad llamado CarTWO. La API se encarga de gestionar los datos de los vehiculos y clientes de una empresa de alquiler de vehiculos.",
+                    "Url_Repository" : "https://github.com/chuck002/SpringBootFrontEnd",
+                    "Url_Images": [
+                        {
+                            "id": 1,
+                            "Url": "https://i.postimg.cc/T29qwDw4/Spring-Boot-API-01.png",
+                            "alt":"Muestra Coleccion en Postman"
+                        },
+                        {
+                            "id": 2,
+                            "Url": "https://i.postimg.cc/50558Hmj/Spring-Boot-API-02.png",
+                            "alt":"Todos los Vehiculos"
+                        },
+                        {
+                            "id": 3,
+                            "Url": "https://i.postimg.cc/XqQwDTmb/Spring-Boot-API-03.png",
+                            "alt":"Agregar Vehiculos"
+                        },
+                        {
+                            "id": 4,
+                            "Url": "https://i.postimg.cc/QCXQmX6m/Spring-Boot-API-04.png",
+                            "alt":"Todos los Usuarios"
+                        },
+                        {
+                            "id": 5,
+                            "Url": "https://i.postimg.cc/KzhrK7Bd/Spring-Boot-API-05.png",
+                            "alt":"Agregar Usuarios"
+                        }
+                    ],
+                    "Tecnologies": ["Java", "Spring Boot", "MySQL", "Postman", "Rest"]
                 }
             ],
             "ProyectosLaborales": [
