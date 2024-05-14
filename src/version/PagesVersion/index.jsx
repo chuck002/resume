@@ -20,7 +20,7 @@ function PageVersion() {
                     <div className='Container-Avatar'>
                         <Avatar alt={Home.spanish.image.alt} src={Home.spanish.image.url} sx={{ width: 200, height: 200 }} />
                     </div>
-                    <Typography variant="span">
+                    <Typography variant="body1" component="p">
                         {Home.spanish.about.text}
                     </Typography>
                 </CardContent>
