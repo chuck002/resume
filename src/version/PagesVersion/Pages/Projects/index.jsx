@@ -16,7 +16,7 @@ function Projects() {
 
         {ProjectsData.languaje.spanish.Proyectos.map((item, index) => {
          return( 
-          <div style={{ width: '70vw', margin: '0 auto' }} key={index}>
+          <div style={{ width: '70vw', margin: '0 auto', marginBottom: '12px' }} key={index}>
           <Card>
             <CardContent>
               <Grid container spacing={2}>
