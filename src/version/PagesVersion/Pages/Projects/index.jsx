@@ -19,18 +19,33 @@ function Projects() {
             <CardContent>
               <Grid container spacing={2}>
                 <Grid item xs={12} md={4}>
-                <Carousel images={ProjectsData.languaje.spanish.Proyectos[0].Url_Images} />
+                  <Carousel images={ProjectsData.languaje.spanish.Proyectos[0].Url_Images} />
                 </Grid>
                 <Grid item xs={12} md={8}>
+                  <Typography variant="h5">
+                    {ProjectsData.languaje.spanish.Proyectos[0].Title}
+                  </Typography>
                   <Typography variant="body1" component="p">
-                    Descripción de la tarjeta...
+                    {ProjectsData.languaje.spanish.Proyectos[0].Description}
+                  </Typography>
+                  <Typography variant="body1">
+                    Repositorio: <a href={ProjectsData.languaje.spanish.Proyectos[0].Url_Repository}>
+                    {ProjectsData.languaje.spanish.Proyectos[0].Url_Repository}
+                    </a>
+                  </Typography>
+                  <Typography variant="body2">
+                    Creacion: {ProjectsData.languaje.spanish.Proyectos[0].Created_Date}
+                  </Typography>
+                  <Typography variant="body2">
+                    Ultima Actualizacion: {ProjectsData.languaje.spanish.Proyectos[0].Last_commit}
                   </Typography>
                 </Grid>
               </Grid>
             </CardContent>
           </Card>
         </div>
-      </div >
+      </div>
+      
       <PageFooter />
     </>
   );

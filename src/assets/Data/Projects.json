@@ -7,9 +7,9 @@
                 {
                     "id": 1,
                     "Title": "Spring Boot Application FE",
-                    "Created_Date": "2021-2021",
+                    "Created_Date": "2021",
                     "Last_commit":  "2021",
-                    "Description": "Proyecto de vistas web creadas con thymeleaf templates. Para mostrar y procesar datos de la API creada en SpringBoot para un proyecto de la Universidad llamado CarTWO.",
+                    "Description": "Proyecto de vistas web creadas templates de Thymeleaf. Para mostrar y procesar datos de la API creada en SpringBoot para un proyecto de la Universidad llamado CarTWO.",
                     "Url_Repository" : "https://github.com/chuck002/SpringBootFrontEnd",
                     "Url_Images": [
                         {

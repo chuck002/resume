@@ -6,31 +6,35 @@ const Carousel = ({ images }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handlePrev = () => {
-    setActiveIndex((prevActiveIndex) => 
+    setActiveIndex((prevActiveIndex) =>
       prevActiveIndex === 0 ? images.length - 1 : prevActiveIndex - 1
     );
   };
 
   const handleNext = () => {
-    setActiveIndex((prevActiveIndex) => 
+    setActiveIndex((prevActiveIndex) =>
       (prevActiveIndex + 1) % images.length
     );
   };
 
   return (
-    <div>
-      <IconButton onClick={handlePrev}>
-        <NavigateBefore />
-      </IconButton>
-      <CardMedia
-        component="img"
-        alt={images[activeIndex].alt}
-        image={images[activeIndex].Url}
-      />
-      <IconButton onClick={handleNext}>
-        <NavigateNext />
-      </IconButton>
-    </div>
+    <div style={{ display: 'flex', alignItems: 'center' }} >
+      <div>
+        <IconButton onClick={handlePrev}>
+          <NavigateBefore />
+        </IconButton>
+      </div><div>
+        <CardMedia
+          component="img"
+          alt={images[activeIndex].alt}
+          image={images[activeIndex].Url}
+        />
+      </div><div>
+        <IconButton onClick={handleNext}>
+          <NavigateNext />
+        </IconButton>
+      </div>
+    </div >
   );
 };
 
