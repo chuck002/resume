@@ -11,10 +11,10 @@ function PageFooter() {
                     <Typography component="span">Javier Oscar Luna 2024</Typography>
                     </div>
                     <div>
-                    <a href={HomeJson.spanish.contact.github}><Typography component="span"><GitHubIcon /> GitHub</Typography></a>
+                    <a style={{color: 'inherit', textDecoration: 'none'}} href={HomeJson.spanish.contact.github}><Typography component="span"><GitHubIcon /> GitHub</Typography></a>
                     </div>
                     <div>
-                    <a href={HomeJson.spanish.contact.linkedin}><Typography component="span"><LinkedInIcon /> LinkedIn</Typography></a>
+                    <a style={{color: 'inherit', textDecoration: 'none'}} href={HomeJson.spanish.contact.linkedin}><Typography component="span"><LinkedInIcon /> LinkedIn</Typography></a>
                     </div>
                 </div>
     );
