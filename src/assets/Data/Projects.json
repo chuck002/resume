@@ -2,72 +2,48 @@
     "languaje": {
         "spanish": {
             "title": "Proyectos Personales",
+            "title2": "Proyectos Laborales",
             "Proyectos": [
                 {
                     "id": 1,
-                    "Title": "My Repo",
-                    "Created_Date": "2010 - 2019",
-                    "Last_commit":  "2019",
-                    "Description": "....",
-                    "Url_Repository" : "http://",
+                    "Title": "Spring Boot Application FE",
+                    "Created_Date": "2021-2021",
+                    "Last_commit":  "2021",
+                    "Description": "Proyecto de vistas web creadas con thymeleaf templates. Para mostrar y procesar datos de la API creada en SpringBoot para un proyecto de la Universidad llamado CarTWO.",
+                    "Url_Repository" : "https://github.com/chuck002/SpringBootFrontEnd",
                     "Url_Images": [
                         {
                             "id": 1,
-                            "Url": "http://",
-                            "alt":""
+                            "Url": "https://i.postimg.cc/zf8R711d/01.png",
+                            "alt":"Login Inicio"
                         },
                         {
                             "id": 2,
-                            "Url": "http://",
-                            "alt":""
-                        }
-                    ],
-                    "Tecnologies": ["Ninguna"]
-                },
-                {
-                    "id": 2,
-                    "Title": "My Repo",
-                    "Created_Date": "2010 - 2019",
-                    "Last_commit":  "2019",
-                    "Description": "....",
-                    "Url_Repository" : "http://",
-                    "Url_Images": [
-                        {
-                            "id": 1,
-                            "Url": "http://",
-                            "alt":""
+                            "Url": "https://i.postimg.cc/Cxjqbx9B/02.png",
+                            "alt":"Vista Usuarios"
                         },
                         {
-                            "id": 2,
-                            "Url": "http://",
-                            "alt":""
-                        }
-                    ],
-                    "Tecnologies": ["Ninguna"]
-                },
-                {
-                    "id": 3,
-                    "Title": "My Repo",
-                    "Created_Date": "2010 - 2019",
-                    "Last_commit":  "2019",
-                    "Description": "....",
-                    "Url_Repository" : "http://",
-                    "Url_Images": [
-                        {
-                            "id": 1,
-                            "Url": "http://",
-                            "alt":""
+                            "id": 3,
+                            "Url": "https://i.postimg.cc/FskcsZZx/03.png",
+                            "alt":"Vista Editar Vehiculos "
                         },
                         {
-                            "id": 2,
-                            "Url": "http://",
-                            "alt":""
+                            "id": 4,
+                            "Url": "https://i.postimg.cc/T24g6Srw/04.png",
+                            "alt":"Vista Clientes"
+                        },
+                        {
+                            "id": 5,
+                            "Url": "https://i.postimg.cc/2SpWqZ9N/06.png",
+                            "alt":"Readme Repositorio"
                         }
                     ],
-                    "Tecnologies": ["Ninguna"]
-                },
+                    "Tecnologies": ["Java", "Spring Boot", "Thymeleaf", "Bootstrap", "MySQL"]
+                }
+            ],
+            "ProyectosLaborales": [
                 {
-                    "id": 4,
+                    "id": 1,
                     "Title": "My Repo",
                     "Created_Date": "2010 - 2019",
                     "Last_commit":  "2019",

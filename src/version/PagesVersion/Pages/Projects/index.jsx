@@ -3,6 +3,7 @@ import PageFooter from '../../../../components/PageFooter';
 import './Projects.css'
 import ProjectsData from '../../../../assets/Data/Projects.json';
 import { Card, CardContent, Typography, Grid, CardMedia } from '@mui/material';
+import Carousel from './CarrouselComponent';
 
 function Projects() {
   return (
@@ -18,12 +19,7 @@ function Projects() {
             <CardContent>
               <Grid container spacing={2}>
                 <Grid item xs={12} md={4}>
-                  <CardMedia
-                    component="img"
-                    height="140"
-                    image="ruta-de-la-imagen.jpg"
-                    alt="Imagen"
-                  />
+                <Carousel images={ProjectsData.languaje.spanish.Proyectos[0].Url_Images} />
                 </Grid>
                 <Grid item xs={12} md={8}>
                   <Typography variant="body1" component="p">
