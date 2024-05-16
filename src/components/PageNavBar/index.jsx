@@ -11,10 +11,9 @@ function PageNavBar() {
         <>
             <div className="NavBar-Container">
                 <div className="NavBar-Container-Logo">
-                <Link to="/" style={{color: 'inherit', textDecoration: 'none'}}><Avatar sx={{ bgcolor: blue[500] }} aria-label="recipe">
-            JL
-          </Avatar></Link>
-            
+                    <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}><Avatar sx={{ bgcolor: blue[500] }} aria-label="recipe">
+                        JL
+                    </Avatar></Link>
                 </div>
                 <div className="NavBar-Container-Menu">
                     <ul>

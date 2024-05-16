@@ -9,5 +9,15 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    position: fixed;
+    position: relative;
+}
+
+@media screen and (max-width: 768px){
+    .Footer-Container-Menu{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    
 }

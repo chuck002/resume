@@ -1,4 +1,5 @@
 import PageNavBar from '../../components/PageNavBar';
+import PageNavBarMovil from '../../components/PageNavBarMovil';
 import './PagesVersion.css';
 import Avatar from '@mui/material/Avatar';
 import PageFooter from '../../components/PageFooter';
@@ -9,22 +10,29 @@ function PageVersion() {
 
     return (
         <>
-            <PageNavBar />
+            <div className='PageNavBarMovil'>
+                <PageNavBarMovil />
+            </div>
+            <div className='PageNavBar'>
+                <PageNavBar />
+            </div>
+
+
             <div className='Container-Title-Index'>
-                        <Typography variant="h4" gutterBottom >
-                            {Home.spanish.about.title}
+                <Typography variant="h4" gutterBottom >
+                    {Home.spanish.about.title}
+                </Typography>
+                <Card className='Container-Card-Index'>
+                    <CardContent className='Container-Card-Content-Index'>
+
+                        <div className='Container-Avatar'>
+                            <Avatar alt={Home.spanish.image.alt} src={Home.spanish.image.url} sx={{ width: 200, height: 200 }} />
+                        </div>
+                        <Typography variant="body1" component="p">
+                            {Home.spanish.about.text}
                         </Typography>
-            <Card className='Container-Card-Index'>
-                <CardContent className='Container-Card-Content-Index'>
-                   
-                    <div className='Container-Avatar'>
-                        <Avatar alt={Home.spanish.image.alt} src={Home.spanish.image.url} sx={{ width: 200, height: 200 }} />
-                    </div>
-                    <Typography variant="body1" component="p">
-                        {Home.spanish.about.text}
-                    </Typography>
-                </CardContent>
-            </Card>
+                    </CardContent>
+                </Card>
             </div>
 
             <PageFooter />
