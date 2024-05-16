@@ -1,4 +1,5 @@
 import PageNavBar from '../../../../components/PageNavBar';
+import PageNavBarMovil from '../../../../components/PageNavBarMovil';
 import PageFooter from '../../../../components/PageFooter';
 import { Card, CardContent, Typography, Tooltip, Chip } from '@mui/material';
 import EducationJson from '../../../../../src/assets/Data/Education.json';
@@ -7,7 +8,12 @@ import './Education.css'
 function Education() {
   return (
     <>
-      <PageNavBar />
+      <div className='PageNavBarMovil'>
+        <PageNavBarMovil />
+      </div>
+      <div className='PageNavBar'>
+        <PageNavBar />
+      </div>
       <div className='Container-Card-Education'>
         <Typography variant="h4" gutterBottom>
           {EducationJson.languaje.spanish.Education.title}

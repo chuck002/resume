@@ -1,4 +1,5 @@
 import PageNavBar from '../../../../components/PageNavBar';
+import PageNavBarMovil from '../../../../components/PageNavBarMovil';
 import PageFooter from '../../../../components/PageFooter';
 import './Projects.css'
 import ProjectsData from '../../../../assets/Data/Projects.json';
@@ -8,7 +9,12 @@ import Carousel from './CarrouselComponent';
 function Projects() {
   return (
     <>
-      <PageNavBar />
+      <div className='PageNavBarMovil'>
+        <PageNavBarMovil />
+      </div>
+      <div className='PageNavBar'>
+        <PageNavBar />
+      </div>
       <div className='Container-Projects'>
         <Typography variant="h4" gutterBottom>
           {ProjectsData.languaje.spanish.title}
@@ -43,7 +49,7 @@ function Projects() {
                     Ultima Actualizacion: {item.Last_commit}
                   </Typography>
                   </div>
-                  <div style={{display: 'flex', flexDirection: 'row'}}>
+                  <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
                   {item.Tecnologies.map((tecnology, index) => {
                     return (
                       <Typography key={index} variant="body2" style={{marginTop: '8px', marginBottom: '8px', marginRight: '8px'}}>

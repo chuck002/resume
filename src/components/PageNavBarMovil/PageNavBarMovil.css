@@ -1,0 +1,23 @@
+.NavBar-Container-Movil{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    height: 43px;
+    background-color: rgba(100, 170, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    z-index : 100;
+}
+.NavBar-Container-Logo-Movil{
+    display: flex;
+    align-items: center;
+}
+.Menu-Container-Movil{
+    color: inherit;
+    text-decoration: none;
+}
+
+#menu div{
+    left: 0%;
+}

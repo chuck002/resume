@@ -1,4 +1,5 @@
 import PageNavBar from '../../../../components/PageNavBar';
+import PageNavBarMovil from '../../../../components/PageNavBarMovil';
 import PageFooter from '../../../../components/PageFooter';
 import ExperienceJson from '../../../../../src/assets/Data/Experience.json';
 import { Card, CardContent, Typography, Tooltip, Chip } from '@mui/material';
@@ -11,7 +12,12 @@ function Experience() {
   });
   return (
     <>
-      <PageNavBar />
+      <div className='PageNavBarMovil'>
+        <PageNavBarMovil />
+      </div>
+      <div className='PageNavBar'>
+        <PageNavBar />
+      </div>
       <div className='Container-Card-Experience'>
         <Typography variant="h4" gutterBottom>
           {ExperienceJson.languaje.spanish.title}
