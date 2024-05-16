@@ -75,6 +75,47 @@
                         }
                     ],
                     "Tecnologies": ["Java", "Spring Boot", "MySQL", "Postman", "Rest"]
+                },
+                {
+                    "id": 3,
+                    "Title": "Aplicacion de recetas para moviles Android.",
+                    "Created_Date": "2021",
+                    "Last_commit":  "2021",
+                    "Description": "Aplicacion para Android de Recetas de cocina creada con Android Studio y Java. La aplicacion permite ver recetas de cocina, agregar recetas, editar recetas y eliminar recetas. Y se conecta a una base de datos en local generada con SQLite.",
+                    "Url_Repository" : "https://github.com/chuck002/AppRecipesAndroidWithJava",
+                    "Url_Images": [
+                        {
+                            "id": 1,
+                            "Url": "https://i.postimg.cc/GpYxGY6n/cocina-Facil-01.jpg",
+                            "alt":"Vista del Home"
+                        },
+                        {
+                            "id": 2,
+                            "Url": "https://i.postimg.cc/Tw6q91XL/cocina-Facil-02.png",
+                            "alt":"Menu 1"
+                        },
+                        {
+                            "id": 3,
+                            "Url": "https://i.postimg.cc/2Sgx1Tcx/cocina-Facil-03.png",
+                            "alt":"Menu 2"
+                        },
+                        {
+                            "id": 4,
+                            "Url": "https://i.postimg.cc/W1dnpxn3/cocina-Facil-04.png",
+                            "alt":"Menu 3"
+                        },
+                        {
+                            "id": 5,
+                            "Url": "https://i.postimg.cc/zXX76yHT/cocina-Facil-05.png",
+                            "alt":"Receta 1"
+                        },
+                        {
+                            "id": 6,
+                            "Url": "https://i.postimg.cc/SNTdhmc3/cocina-Facil-06.png",
+                            "alt":"Receta 2"
+                        }
+                    ],
+                    "Tecnologies": ["Java", "Android Studio", "SQL"]
                 }
             ],
             "ProyectosLaborales": [
