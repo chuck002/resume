@@ -3,10 +3,17 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import WebIcon from '@mui/icons-material/Web';
-import WysiwygIcon from '@mui/icons-material/Wysiwyg';
-import SmartScreenIcon from '@mui/icons-material/SmartScreen';
+//import WysiwygIcon from '@mui/icons-material/Wysiwyg';
+//import SmartScreenIcon from '@mui/icons-material/SmartScreen';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
+
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
+
+import { htmlVersion } from '../../version/PdfVersion/pdfVersion';
+
 
 export default function MenuView() {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -18,6 +25,19 @@ export default function MenuView() {
         setAnchorEl(null);
     };
 
+    const generatePdf = async () => {
+        // Crea un contenedor temporal para el HTML string
+        const tempContainer = document.createElement('div');
+        tempContainer.innerHTML = htmlVersion;
+        document.body.appendChild(tempContainer);
+        const canvas = await html2canvas(tempContainer);
+        const imgData = canvas.toDataURL('image/png');
+
+        const pdf = new jsPDF();
+        pdf.addImage(imgData, 'PNG', 0, 0, canvas.width / 5, canvas.height / 5);
+        pdf.save('document.pdf');
+    };
+
     return (
         <div>
             <Button
@@ -27,7 +47,9 @@ export default function MenuView() {
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}
             >
-                <WebIcon />
+                <WebIcon
+                    sx={{ color: 'black' }}
+                />
             </Button>
             <Menu
                 id="basic-menu"
@@ -37,8 +59,17 @@ export default function MenuView() {
                 MenuListProps={{
                     'aria-labelledby': 'basic-button',
                 }}
+                onClick={generatePdf}
             >
                 <MenuItem onClick={handleClose}>
+                    <ListItemIcon>
+                        <PictureAsPdfIcon />
+                    </ListItemIcon>
+                    <ListItemText>
+                        Descargar PDF
+                    </ListItemText>
+                </MenuItem>
+                {/*<MenuItem onClick={handleClose}>
                     <ListItemIcon>
                         <WebIcon />
                     </ListItemIcon>
@@ -61,7 +92,7 @@ export default function MenuView() {
                     <ListItemText>
                         Vista WebApp
                     </ListItemText>
-                </MenuItem>
+                </MenuItem>*/}
             </Menu>
         </div>
     );

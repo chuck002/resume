@@ -23,8 +23,8 @@ function PageNavBar() {
                         <li><Typography variant="h6"><Link to="/Skills">Habilidades</Link></Typography></li>
                         <li><Typography variant="h6"><Link to="/Projects">Proyectos</Link></Typography></li>
                         <li><Typography variant="h6"><Link to="/PersonalData">Contacto</Link></Typography></li>
-                        {/*<li><Typography variant="h6"><Link to="/PersonalData"><MenuView /></Link></Typography></li>
-                        <li><Typography variant="h6"><Link to="/PersonalData"><MenuViewLanguajes /></Link></Typography></li>*/}
+                        <li><Typography variant="h6"><MenuView /></Typography></li>
+                        {/*<li><Typography variant="h6"><Link to="/PersonalData"><MenuViewLanguajes /></Link></Typography></li>*/}
                     </ul>
                 </div>
             </div>
