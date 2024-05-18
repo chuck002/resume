@@ -4,6 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import './PageNavBarMovil.css';
 import { Link } from 'react-router-dom';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import MenuViewLanguajes from '../MenuViewLanguages';
 
 function PageNavBarMovil() {
 
@@ -41,7 +42,7 @@ function PageNavBarMovil() {
                             <MenuItem onClick={handleClose}><Typography variant="h7"><Link to="/Skills" className='Menu-Container-Movil'>Habilidades <KeyboardArrowRightIcon /></Link></Typography></MenuItem>
                             <MenuItem onClick={handleClose}><Typography variant="h7"><Link to="/Projects" className='Menu-Container-Movil'>Proyectos <KeyboardArrowRightIcon /></Link></Typography></MenuItem>
                             <MenuItem onClick={handleClose}><Typography variant="h7"><Link to="/PersonalData" className='Menu-Container-Movil'>Contacto <KeyboardArrowRightIcon /></Link></Typography></MenuItem>
-                            
+                            <MenuItem><MenuViewLanguajes /></MenuItem>
                         </Menu>
                     </div>
 
