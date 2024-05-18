@@ -5,9 +5,12 @@ import './Skills.css'
 import SkillsSection from './SkillSections';
 import Skills from '../../../../assets/Data/Skills.json'
 import { Typography } from '@mui/material';
+import { LanguajeContext } from '../../../../context/LanguajeContext';
+import { useContext } from 'react';
 
 
 function Education() {
+  const { languaje } = useContext(LanguajeContext);
   return (
     <>
       <div className='PageNavBarMovil'>
@@ -18,7 +21,7 @@ function Education() {
       </div>
       <div className='Container-Card-Skills'>
         <Typography variant="h4" gutterBottom>
-          {Skills.languaje.spanish.title}
+          {Skills.languaje[languaje].title}
         </Typography>
         <SkillsSection />
 

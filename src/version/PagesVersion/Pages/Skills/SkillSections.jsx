@@ -1,11 +1,15 @@
 import Skills from '../../../../assets/Data/Skills.json'
 import { Card, CardContent, Typography, Grid, Tooltip } from '@mui/material';
+import { LanguajeContext } from '../../../../context/LanguajeContext';
+import { useContext } from 'react';
+
 
 const SkillsSection = () => {
+    const { languaje } = useContext(LanguajeContext);
     return (
         <>
             <Grid container spacing={3} className='Container-Card-Content-Skills'>
-                {Skills.languaje.spanish.Habilidades.map((item, index) => {
+                {Skills.languaje[languaje].Skills.map((item, index) => {
                     return (
                         <Grid item xs={12} sm={6} md={4} key={index}>
                             <Card>
