@@ -1,20 +1,34 @@
-import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import LanguageIcon from '@mui/icons-material/Language';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import { LanguajeContext } from '../../context/LanguajeContext';
+import { useContext, useState } from 'react';
 
 export default function MenuViewLanguajes() {
-    const [anchorEl, setAnchorEl] = React.useState(null);
+
+    const { languaje, toggleLanguaje } = useContext(LanguajeContext);
+
+    const [anchorEl, setAnchorEl] = useState(null);
     const open = Boolean(anchorEl);
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
     };
-    const handleClose = () => {
+    const toggleLanguajeSpanish = () => {
+        toggleLanguaje('spanish')
         setAnchorEl(null);
     };
+    const toggleLanguajeEnglish = () => {
+        toggleLanguaje('english')
+        setAnchorEl(null);
+    };
+
+    const handleClose = () => {
+        setAnchorEl(null);
+    }
+
 
     return (
         <div>
@@ -26,7 +40,9 @@ export default function MenuViewLanguajes() {
                 onClick={handleClick}
 
             >
-                <LanguageIcon />
+                <LanguageIcon
+                    sx={{ color: 'black' }}
+                />
             </Button>
             <Menu
                 id="basic-menu"
@@ -38,7 +54,7 @@ export default function MenuViewLanguajes() {
                 }}
 
             >
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={toggleLanguajeSpanish}>
                     <ListItemIcon>
                         🇦🇷
                     </ListItemIcon>
@@ -46,7 +62,7 @@ export default function MenuViewLanguajes() {
                         Español
                     </ListItemText>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={toggleLanguajeEnglish}>
                     <ListItemIcon>
                         🇺🇸
                     </ListItemIcon>
