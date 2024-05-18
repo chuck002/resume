@@ -46,7 +46,7 @@
                     "Role": "Worker",
                     "Duration": "2010 - 2019",
                     "Description": "I worked for 10 years as a plant operator, initially in a group on the production line. Later, I performed various tasks such as data entry for defective parts and materials.",
-                    "tecnologies": ["Ninguna"]
+                    "tecnologies": ["None"]
                 },
                 {
                     "id": 2,
@@ -59,8 +59,8 @@
                 {
                     "id": 3,
                     "Company": "Pulpou SA (Argentina)",
-                    "Role": "Programador Backend y Procesamiento de Datos",
-                    "Duration": "01/2022 - Actualidad",
+                    "Role": "Backend Developer and Data Processing",
+                    "Duration": "01/2022 - Present",
                     "Description": "I currently work remotely on the scraping platform for Brand Protection, developing new features and resolving issues in the new library using JS in Node.",
                     "tecnologies": ["NodeJS", "SQL", "Puppeteer", "Cheerio", "Axios", "Express", "Sequelize", "JavaScript", "AJAX", "Docker", "Git", "GitHub"]
                 },
@@ -68,7 +68,7 @@
                     "id": 4,
                     "Company": "Solucredito SA (Republica Dominicana)",
                     "Role": "FullStack Developer",
-                    "Duration": "02/2022 - Actualidad",
+                    "Duration": "02/2022 - Present",
                     "Description": "I currently work as a FullStack developer on their financial services sales platform using Java 8 with the SpringBoot framework and Maven, a relational SQL database, and a front end developed in a mix of Thymeleaf and JS with AJAX.",
                     "tecnologies": ["Java 8", "SpringBoot", "Maven", "Thymeleaf", "AJAX", "Javascript", "Jquery", "SQL", "Hibernate", "Docker", "Git", "GitHub"]
                 }
