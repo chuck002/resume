@@ -5,10 +5,10 @@ export const LanguajeContext = createContext();
 
 // Crear un proveedor de contexto
 export const LanguajeProvider = ({ children }) => {
-  const [languaje, setLanguaje] = useState('spanish');
+  const [languaje, setLanguaje] = useState('english');
 
-  const toggleLanguaje = () => {
-    setLanguaje((prevTheme) => (prevTheme === 'spanish' ? 'english' : 'spanish'));
+  const toggleLanguaje = (languajeProp) => {
+    setLanguaje(languajeProp);
   };
 
   return (
