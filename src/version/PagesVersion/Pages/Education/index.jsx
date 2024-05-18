@@ -8,7 +8,7 @@ import { useContext } from 'react';
 import { LanguajeContext } from '../../../../context/LanguajeContext';
 
 function Education() {
-  const { languaje } = useContext(LanguajeContext); 
+  const { languaje } = useContext(LanguajeContext);
   return (
     <>
       <div className='PageNavBarMovil'>
@@ -22,11 +22,12 @@ function Education() {
           {EducationJson.languaje[languaje].Education.title}
         </Typography>
         <div className='Container-Card-Content-Education'>
+
+          <Typography variant="h6" gutterBottom>
+            {EducationJson.languaje[languaje].Education.Formal.title}
+          </Typography>
           <Card className='Container-Card-Index'>
-            <CardContent className='Container-Card-Content-Index'>
-              <Typography variant="h6" gutterBottom>
-                {EducationJson.languaje[languaje].Education.Formal.title}
-              </Typography>
+            <CardContent >
               <div className='Lista-Experience-Title-Education'>
                 <Chip
                   size="medium"
@@ -40,37 +41,43 @@ function Education() {
                 <Typography component="span" className='Experience-empresa-Education'>{EducationJson.languaje[languaje].Education.Formal.data[0].Degree}</Typography>
                 <Typography component="span" className='Experience-empresa-Education'>{EducationJson.languaje[languaje].Education.Formal.data[0].Details}</Typography>
               </div>
-
-              <Typography variant="h6" gutterBottom>
-                {EducationJson.languaje[languaje].Education.Cursos.title}
-              </Typography>
-
-              {EducationJson.languaje[languaje].Education.Cursos.data.map((item, index) => {
-
-                <span>{item.Duration}</span>
-                { console.log(item.Duration) }
-                return (<div key={index}>
-
-                      <div className='Lista-Experience-Title-Education' >
-                        <Chip
-                          size="medium"
-                          label={item.Duration}
-                          color={'success'}
-                          className='Lista-Experience-Title-Education'
-                        />
-                        <Typography component="span" className='Experience-empresa-Education'>{item.Institution}</Typography>
-                      </div>
-                      <div className='Lista-Experience-Content-Education'>
-                        <Typography component="span" >{item.Course}</Typography>
-                        <Typography component="span" >{item.Certification}</Typography>
-                      </div>
-
-                </div>
-                );
-              }, [])}
-
             </CardContent>
           </Card>
+
+          <Typography variant="h6" gutterBottom>
+            {EducationJson.languaje[languaje].Education.Cursos.title}
+          </Typography>
+
+
+          {EducationJson.languaje[languaje].Education.Cursos.data.map((item, index) => {
+
+
+            { console.log(item.Duration) }
+            return (<div key={index}>
+              <Card className='Container-Card-Index'>
+                <CardContent>
+                  <span>{item.Duration}</span>
+                  <div className='Lista-Experience-Title-Education' >
+                    <Chip
+                      size="medium"
+                      label={item.Duration}
+                      color={'success'}
+                      className='Lista-Experience-Title-Education'
+                    />
+                    <Typography component="span" className='Experience-empresa-Education'>{item.Institution}</Typography>
+                  </div>
+                  <div className='Lista-Experience-Content-Education'>
+                    <Typography component="span" >{item.Course}</Typography>
+                    <Typography component="span" >{item.Certification}</Typography>
+                  </div>
+
+                </CardContent>
+              </Card>
+            </div>
+            );
+          }, [])}
+
+
         </div>
       </div>
 
