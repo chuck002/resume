@@ -52,11 +52,9 @@ function Education() {
           {EducationJson.languaje[languaje].Education.Cursos.data.map((item, index) => {
 
 
-            { console.log(item.Duration) }
             return (<div key={index}>
               <Card className='Container-Card-Index'>
                 <CardContent>
-                  <span>{item.Duration}</span>
                   <div className='Lista-Experience-Title-Education' >
                     <Chip
                       size="medium"

@@ -31,22 +31,20 @@ function PersonalData() {
 
 
         <div className='Container-Card-Contact'>
-          <Card className='Container-Card-Index'>
+          <Card >
             <CardContent>
 
               <Avatar alt={HomeJson[languaje].image.alt} src={HomeJson[languaje].image.url} sx={{ width: 100, height: 100 }} />
               <Typography variant="h5">{HomeJson[languaje].contact.subtitle2}</Typography>
-              <GitHubIcon titleAccess='/chuck002' /><Link to={HomeJson[languaje].contact.github}>{HomeJson[languaje].contact.github}</Link>
-              <LinkedInIcon titleAccess='/javy-luna' /><Link to={HomeJson[languaje].contact.linkedin}>{HomeJson[languaje].contact.linkedin}</Link>
-              <p>Phone: {HomeJson[languaje].contact.phone}</p>
-              <p>Linkedin: {HomeJson[languaje].contact.linkedin}</p>
+              <Typography><GitHubIcon titleAccess='/chuck002' /><Link to={HomeJson[languaje].contact.github}>{HomeJson[languaje].contact.github}</Link></Typography>
+              <Typography><LinkedInIcon titleAccess='/javy-luna' /><Link to={HomeJson[languaje].contact.linkedin}>{HomeJson[languaje].contact.linkedin}</Link></Typography>
             </CardContent>
             <CardContent>
               <Typography variant="h5">{HomeJson[languaje].contact.subtitle1}</Typography>
-              <p>Name: Javier Luna</p>
-              <p>Email: {HomeJson[languaje].contact.email}</p>
-              <p>Phone: {HomeJson[languaje].contact.phone}</p>
-              <p>Linkedin: /javy-luna</p>
+              <Typography component="p">Name: {HomeJson[languaje].contact.name}</Typography>
+              <Typography component="p">Email: {HomeJson[languaje].contact.email}</Typography>
+              <Typography component="p">Phone: {HomeJson[languaje].contact.phone}</Typography>
+              <Typography component="p">Linkedin: {HomeJson[languaje].contact.linkedin}</Typography>
 
             </CardContent>
           </Card>
