@@ -9,9 +9,6 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
-import jsPDF from 'jspdf';
-import html2canvas from 'html2canvas';
-
 import { htmlVersion } from '../../version/PdfVersion/pdfVersion';
 
 
@@ -25,18 +22,33 @@ export default function MenuView() {
         setAnchorEl(null);
     };
 
-    const generatePdf = async () => {
-        // Crea un contenedor temporal para el HTML string
-        const tempContainer = document.createElement('div');
-        tempContainer.innerHTML = htmlVersion;
-        document.body.appendChild(tempContainer);
-        const canvas = await html2canvas(tempContainer);
-        const imgData = canvas.toDataURL('image/png');
 
-        const pdf = new jsPDF();
-        pdf.addImage(imgData, 'PNG', 0, 0, canvas.width / 5, canvas.height / 5);
-        pdf.save('document.pdf');
-    };
+    const generatePdf = async () => {
+        try {
+          const response = await fetch('http://localhost:3000/generate-pdf', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ html: htmlVersion })
+          });
+    
+          if (!response.ok) {
+            throw new Error('Error generating PDF');
+          }
+    
+          const blob = await response.blob();
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = 'document.pdf';
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+        } catch (error) {
+          console.error('Error:', error);
+        }
+      };
 
     return (
         <div>
@@ -46,6 +58,7 @@ export default function MenuView() {
                 aria-haspopup="true"
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}
+                onClose={handleClose}
             >
                 <WebIcon
                     sx={{ color: 'black' }}
@@ -59,9 +72,11 @@ export default function MenuView() {
                 MenuListProps={{
                     'aria-labelledby': 'basic-button',
                 }}
-                onClick={generatePdf}
+                
             >
-                <MenuItem onClick={handleClose}>
+                <MenuItem 
+                onClick={generatePdf}
+                >
                     <ListItemIcon>
                         <PictureAsPdfIcon />
                     </ListItemIcon>
