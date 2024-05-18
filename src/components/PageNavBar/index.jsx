@@ -27,7 +27,7 @@ function PageNavBar() {
                         <li><Typography variant="h6"><Link to="/Skills">{Home[languaje].titles[3]}</Link></Typography></li>
                         <li><Typography variant="h6"><Link to="/Projects">{Home[languaje].titles[4]}</Link></Typography></li>
                         <li><Typography variant="h6"><Link to="/PersonalData">{Home[languaje].titles[5]}</Link></Typography></li>
-                        <li><Typography variant="h6"><MenuView /></Typography></li>
+                        {/*<li><Typography variant="h6"><MenuView /></Typography></li>*/}
                         <li><Typography variant="h6"><MenuViewLanguajes /></Typography></li>
                     </ul>
                 </div>
