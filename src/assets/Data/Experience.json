@@ -38,13 +38,14 @@
             ]
         },
         "english": {
+            "title": "Work Experience",
             "Experience": [
                 {
                     "id": 1,
                     "Company": "Ford Argentina SA",
                     "Role": "Worker",
                     "Duration": "2010 - 2019",
-                    "Description": "Me desempeñe durante 10 años como operario en planta, trabajando en grupo primero en la linea de producción. Y luego desarrollando tareas varias, como Data Entry de piezas fallidas y materiales.",
+                    "Description": "I worked for 10 years as a plant operator, initially in a group on the production line. Later, I performed various tasks such as data entry for defective parts and materials.",
                     "tecnologies": ["Ninguna"]
                 },
                 {
@@ -52,7 +53,7 @@
                     "Company": "Pulpou SA (Argentina)",
                     "Role": "FullStack Developer",
                     "Duration": "07/2021 - 01/2022",
-                    "Description": "Trabaje en el desarrollo de nuevas features y resolucion de issues en su plataforma REST de Brand Protection, que se encontraba compuesta de un frontEnd en ReactJS y con un Backend diseñada en Python con Flask y SQLAlchemy.",
+                    "Description": "I worked on the development of new features and issue resolution in their Brand Protection REST platform, which consisted of a ReactJS front end and a backend designed in Python with Flask and SQLAlchemy.",
                     "tecnologies": ["Python", "Flask", "SQLAlchemy", "ReactJS", "NodeJS", "SQL", "Docker", "Git", "GitHub"]
                 },
                 {
@@ -60,7 +61,7 @@
                     "Company": "Pulpou SA (Argentina)",
                     "Role": "Programador Backend y Procesamiento de Datos",
                     "Duration": "01/2022 - Actualidad",
-                    "Description": "Trabajo Actualmente de manera remota en la plataforma de scrapping para Brand Protection, generando nuevas features y resolviendo issues en la nueva libreria con JS en Node.",
+                    "Description": "I currently work remotely on the scraping platform for Brand Protection, developing new features and resolving issues in the new library using JS in Node.",
                     "tecnologies": ["NodeJS", "SQL", "Puppeteer", "Cheerio", "Axios", "Express", "Sequelize", "JavaScript", "AJAX", "Docker", "Git", "GitHub"]
                 },
                 {
@@ -68,7 +69,7 @@
                     "Company": "Solucredito SA (Republica Dominicana)",
                     "Role": "FullStack Developer",
                     "Duration": "02/2022 - Actualidad",
-                    "Description": "Actualmente trabajo como desarrollador FullStack, en su plataforma de venta de servicios financieros en Java 8 bajo el framework SpringBoot con Maven, una Base Relacional SQL y con un frontEnd desarrollado de manera mixta entre Thymeleaf y JS con AJAX.",
+                    "Description": "I currently work as a FullStack developer on their financial services sales platform using Java 8 with the SpringBoot framework and Maven, a relational SQL database, and a front end developed in a mix of Thymeleaf and JS with AJAX.",
                     "tecnologies": ["Java 8", "SpringBoot", "Maven", "Thymeleaf", "AJAX", "Javascript", "Jquery", "SQL", "Hibernate", "Docker", "Git", "GitHub"]
                 }
             ]

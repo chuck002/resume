@@ -4,12 +4,18 @@ import PageFooter from '../../../../components/PageFooter';
 import ExperienceJson from '../../../../../src/assets/Data/Experience.json';
 import { Card, CardContent, Typography, Tooltip, Chip } from '@mui/material';
 import './Experience.css'
+import { useContext } from 'react';
+import { LanguajeContext } from '../../../../context/LanguajeContext'
 
 function Experience() {
-  const reverseExperience = ExperienceJson.languaje.spanish.Experience.map((element, index, arr) => {
+  const { languaje } = useContext(LanguajeContext);
+
+  const reverseExperience = ExperienceJson.languaje[languaje].Experience.map((element, index, arr) => {
     const reverseIndex = arr.length - index - 1;
     return arr[reverseIndex];
   });
+
+  
   return (
     <>
       <div className='PageNavBarMovil'>
@@ -20,7 +26,7 @@ function Experience() {
       </div>
       <div className='Container-Card-Experience'>
         <Typography variant="h4" gutterBottom>
-          {ExperienceJson.languaje.spanish.title}
+          {ExperienceJson.languaje[languaje].title}
         </Typography>
         <div className='Container-Card-Content-Experience'>
 
