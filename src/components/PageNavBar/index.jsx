@@ -5,8 +5,12 @@ import { Typography } from '@mui/material';
 import Avatar from '@mui/material/Avatar';
 import { blue } from '@mui/material/colors';
 import './PageNavBar.css';
+import Home from '../../assets/Data/Home.json'
+import { LanguajeContext } from '../../context/LanguajeContext';
+import { useContext } from 'react';
 
 function PageNavBar() {
+    const { languaje } = useContext(LanguajeContext);
     return (
         <>
             <div className="NavBar-Container">
@@ -18,13 +22,13 @@ function PageNavBar() {
                 <div className="NavBar-Container-Menu">
                     <ul>
                         {/*<li><Typography variant="h6"><Link to="/">Inicio</Link></Typography></li>*/}
-                        <li><Typography variant="h6"><Link to="/Experience">Experiencia</Link></Typography></li>
-                        <li><Typography variant="h6"><Link to="/Education">Educacion</Link></Typography></li>
-                        <li><Typography variant="h6"><Link to="/Skills">Habilidades</Link></Typography></li>
-                        <li><Typography variant="h6"><Link to="/Projects">Proyectos</Link></Typography></li>
-                        <li><Typography variant="h6"><Link to="/PersonalData">Contacto</Link></Typography></li>
+                        <li><Typography variant="h6"><Link to="/Experience">{Home[languaje].titles[1]}</Link></Typography></li>
+                        <li><Typography variant="h6"><Link to="/Education">{Home[languaje].titles[2]}</Link></Typography></li>
+                        <li><Typography variant="h6"><Link to="/Skills">{Home[languaje].titles[3]}</Link></Typography></li>
+                        <li><Typography variant="h6"><Link to="/Projects">{Home[languaje].titles[4]}</Link></Typography></li>
+                        <li><Typography variant="h6"><Link to="/PersonalData">{Home[languaje].titles[5]}</Link></Typography></li>
                         <li><Typography variant="h6"><MenuView /></Typography></li>
-                        {/*<li><Typography variant="h6"><Link to="/PersonalData"><MenuViewLanguajes /></Link></Typography></li>*/}
+                        <li><Typography variant="h6"><MenuViewLanguajes /></Typography></li>
                     </ul>
                 </div>
             </div>
